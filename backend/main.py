@@ -2,7 +2,7 @@
 FastAPI backend for the AI Portfolio chatbot.
 
 Run locally:
-    pip install fastapi uvicorn groq python-dotenv pydantic
+    pip install fastapi uvicorn groq python-dotenv pydantic slowapi
     uvicorn main:app --reload --port 8000
 
 Endpoints:
@@ -14,12 +14,16 @@ import os
 import json
 from typing import List, Literal
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import StreamingResponse
+from fastapi.responses import StreamingResponse, JSONResponse
 from pydantic import BaseModel
 from dotenv import load_dotenv
 from groq import Groq
+
+from slowapi import Limiter, _rate_limit_exceeded_handler
+from slowapi.util import get_remote_address
+from slowapi.errors import RateLimitExceeded
 
 from models import load_profile
 from system_prompt import build_system_prompt
@@ -37,7 +41,23 @@ MODEL = "openai/gpt-oss-20b"  # check console.groq.com/docs/models if this ever 
 profile = load_profile()
 SYSTEM_PROMPT = build_system_prompt(profile.model_dump())
 
+# --- Rate limiter setup ---
+limiter = Limiter(key_func=get_remote_address)
+
 app = FastAPI(title="AI Portfolio Backend")
+app.state.limiter = limiter
+from slowapi.middleware import SlowAPIMiddleware
+
+@app.exception_handler(RateLimitExceeded)
+async def rate_limit_handler(request: Request, exc: RateLimitExceeded):
+    return JSONResponse(
+        status_code=429,
+        content={
+            "error": "rate_limited",
+            "message": "Too many requests — please slow down and try again shortly."
+        },
+    )
+
 
 # Allow the React dev server (and your deployed frontend) to call this API.
 # Tighten allow_origins to your real frontend domain before going to production.
@@ -69,7 +89,8 @@ def health():
 
 
 @app.post("/chat")
-def chat(req: ChatRequest):
+@limiter.limit("20/minute")
+def chat(request: Request, req: ChatRequest):
     if not req.messages:
         raise HTTPException(status_code=400, detail="messages cannot be empty")
 
@@ -96,7 +117,8 @@ def chat(req: ChatRequest):
 
 
 @app.post("/match-jd")
-def match_jd(req: JDMatchRequest):
+@limiter.limit("5/minute")
+def match_jd(request: Request, req: JDMatchRequest):
     """Step 8: HR pastes a JD, AI answers suitability/strengths/gaps based ONLY on candidate data."""
     if not req.job_description.strip():
         raise HTTPException(status_code=400, detail="job_description cannot be empty")
