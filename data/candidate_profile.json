@@ -1,0 +1,87 @@
+{
+  "name": "Parth Mishra",
+  "headline": "Final-year B.Tech CSE (AI & ML) student | Aspiring SDE / Full-Stack / AI-ML Engineer",
+  "education": {
+    "degree": "B.Tech, Computer Science Engineering (AI & ML)",
+    "institution": "VIT Bhopal University",
+    "batch": "2027",
+    "roll_number": "23BAI10539",
+    "cgpa": "8.67"
+  },
+  "target_roles": ["SDE", "Full-Stack Developer", "AI/ML Engineer"],
+  "target_locations": ["Bangalore", "Pune", "Delhi NCR", "Hyderabad", "Mumbai"],
+  "skills": {
+    "languages": ["Python", "JavaScript/TypeScript", "C++"],
+    "frontend": ["React", "React Native (Expo)", "Vite", "CSS"],
+    "backend": ["Node.js", "Express", "FastAPI (learning)"],
+    "databases": ["PostgreSQL", "Supabase"],
+    "ai_ml": [
+      "LLM API integration (Claude, OpenAI)",
+      "RAG pipelines",
+      "Vector databases (HNSW, KD-Tree, brute-force k-NN)",
+      "Prompt engineering",
+      "Computer vision fundamentals (optical flow, shape from shading, photometric stereo, Phong model)"
+    ],
+    "dsa_patterns": [
+      "Two pointers", "Fast & slow pointers", "Sliding window", "Kadane's algorithm",
+      "Prefix sum", "Merge intervals", "Stack-based problems", "Hash maps", "Linked list reversal (in progress)"
+    ],
+    "tools": ["Git/GitHub", "Ollama", "Flask", "Streamlit", "Apify"]
+  },
+  "projects": [
+    {
+      "name": "AIMealTracker",
+      "description": "Personal app for tracking Indian vegetarian meals against macro goals oriented around lean muscle gain.",
+      "tech_stack": ["React", "Vite", "Claude API"],
+      "highlights": [
+        "Uses Claude API for natural-language macro parsing calibrated specifically to Indian vegetarian food",
+        "Built end-to-end and pushed to GitHub"
+      ]
+    },
+    {
+      "name": "Insta Insights",
+      "description": "Full-stack mobile Instagram analytics platform with a license-key based business model.",
+      "tech_stack": ["React Native", "Expo", "Node.js", "Express", "TypeScript", "PostgreSQL", "Supabase"],
+      "highlights": [
+        "Built a browser-based admin dashboard",
+        "Rebuilt profile and insights screens to match Instagram's native layout",
+        "Implemented a shared axis-scaling algorithm across chart views",
+        "Identified and fixed a hardcoded private LAN IP",
+        "Resolved a publicly exposed .env file with real production credentials — handled as a real security incident"
+      ]
+    },
+    {
+      "name": "VectorDB",
+      "description": "Ported and deeply studied a vector database implementation to master retrieval internals for interviews.",
+      "tech_stack": ["Python", "Flask", "Ollama"],
+      "highlights": [
+        "Studied internals in depth: HNSW, KD-Tree, brute-force k-NN, RAG pipeline design",
+        "Openly discloses this project was ported/downloaded, not originally built from scratch, and explains what he learned by dissecting it"
+      ]
+    },
+    {
+      "name": "DPI Packet Analyzer",
+      "description": "Network packet analysis project using deep packet inspection techniques.",
+      "tech_stack": ["Python, JavaScript/TypeScript, C++,React, React Native (Expo), Vite, CSS,Node.js, Express, Flask, FastAPI (learning),PostgreSQL, Supabase,LLM API integration (Claude, OpenAI), RAG pipelines, vector search (HNSW, KD-Tree, brute-force k-NN), prompt engineering, Ollama,Git/GitHub, Streamlit, Apify"],
+      "highlights": [""]
+    },
+    {
+      "name": "TripPlanner Multi-AI Agents",
+      "description": "College project using a multi-agent AI architecture to plan trips.",
+      "tech_stack": ["Python", "Streamlit", "OpenAI API", "Serper API", "Replit (deployment)"],
+      "highlights": [
+        "Designed a multi-agent architecture where different agents handle different planning sub-tasks",
+        "Created a full accompanying PowerPoint deck and presenter's guide"
+      ]
+    }
+  ],
+  "experience": "Front-End Developer Intern — Craftedge Academy Oct 2025 – Apr 2026",
+  "achievements": "Consistently grinding DSA on various platforms leetcode and geeksforgeeks",
+  "certifications": "Oracle Certified Foundations Associate — Agentic AI | Oracle University, Sept 2026 ",
+  "social_links": {
+    "email": "parthmishra9942@gmail.com",
+    "linkedin": "https://linkedin.com/in/parth-mishra-4b7578242",
+    "github": "https://github.com/parthmishra9942",
+    "leetcode": "https://leetcode.com/u/parth213g"
+  }
+}
