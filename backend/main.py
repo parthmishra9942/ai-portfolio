@@ -61,9 +61,12 @@ async def rate_limit_handler(request: Request, exc: RateLimitExceeded):
 
 # Allow the React dev server (and your deployed frontend) to call this API.
 # Tighten allow_origins to your real frontend domain before going to production.
+allowed_origins_env = os.environ.get("ALLOWED_ORIGINS", "*")
+allowed_origins = [o.strip() for o in allowed_origins_env.split(",")] if allowed_origins_env != "*" else ["*"]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=allowed_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
