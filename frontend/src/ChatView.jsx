@@ -200,7 +200,7 @@ export default function ChatView({ onClose }) {
             rows={1}
             disabled={isStreaming}
           />
-          <button onClick={sendMessage} disabled={isStreaming || !input.trim()}>
+          <button onClick={() => sendMessage()} disabled={isStreaming || !input.trim()}>
             <Send size={18} />
           </button>
         </div>

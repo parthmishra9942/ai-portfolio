@@ -501,3 +501,47 @@ body {
   background: #262b37;
   border-color: #4f6df5;
 }
+/* Mobile viewport height fix */
+.desktop {
+  height: 100vh;
+  height: 100dvh;
+}
+
+/* Responsive dock for phones */
+@media (max-width: 480px) {
+  .dock {
+    gap: 6px;
+    padding: 8px 10px;
+    bottom: 10px;
+    max-width: 94vw;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .dock::-webkit-scrollbar {
+    display: none;
+  }
+
+  .dock-square {
+    width: 44px;
+    height: 44px;
+    min-width: 44px;
+    border-radius: 11px;
+  }
+
+  .dock-label {
+    font-size: 0.65rem;
+    bottom: 52px;
+  }
+
+  .ask-me-pill {
+    height: 44px;
+    padding: 0 14px;
+    font-size: 0.8rem;
+    white-space: nowrap;
+  }
+
+  .greeting-title {
+    font-size: 3.2rem;
+  }
+}
