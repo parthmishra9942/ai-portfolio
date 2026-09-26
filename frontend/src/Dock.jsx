@@ -1,4 +1,4 @@
-import { Mail, FileText, Github, Code2, Sparkles } from 'lucide-react'
+import { Mail, FileText, Github, Code2, Sparkles, Briefcase } from 'lucide-react'
 import { CANDIDATE } from './config'
 
 function SquareIcon({ className, icon, label, onClick }) {
@@ -10,7 +10,7 @@ function SquareIcon({ className, icon, label, onClick }) {
   )
 }
 
-export default function Dock({ onOpenChat }) {
+export default function Dock({ onOpenChat, onOpenJDMatch }) {
   return (
     <div className="dock">
       <SquareIcon
@@ -52,6 +52,12 @@ export default function Dock({ onOpenChat }) {
             alert('Add your resume link in src/config.js (resumeUrl) to enable this.')
           }
         }}
+      />
+      <SquareIcon
+        className="icon-jd-match"
+        icon={<Briefcase size={22} strokeWidth={2.2} />}
+        label="Match a JD"
+        onClick={onOpenJDMatch}
       />
 
       <button className="ask-me-pill" onClick={onOpenChat}>

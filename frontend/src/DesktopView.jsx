@@ -1,7 +1,7 @@
 import Dock from './Dock'
 import { CANDIDATE } from './config'
 
-export default function DesktopView({ onOpenChat }) {
+export default function DesktopView({ onOpenChat, onOpenJDMatch }) {
   return (
     <div className="desktop">
       <div className="wallpaper" />
@@ -19,7 +19,7 @@ export default function DesktopView({ onOpenChat }) {
         </button>
       </div>
 
-      <Dock onOpenChat={onOpenChat} />
+      <Dock onOpenChat={onOpenChat} onOpenJDMatch={onOpenJDMatch} />
     </div>
   )
 }
