@@ -1,5 +1,6 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { X, Sparkles } from 'lucide-react'
+import { API_URL, warmupBackend } from './config'
 
 function renderInlineBold(text) {
   const parts = text.split(/(\*\*[^*]+\*\*)/g)
@@ -51,13 +52,16 @@ function renderFormattedText(text) {
   return elements
 }
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000'
-
 export default function JDMatchView({ onClose }) {
   const [jobDescription, setJobDescription] = useState('')
   const [analysis, setAnalysis] = useState(null)
   const [isLoading, setIsLoading] = useState(false)
+  const [isWakingUp, setIsWakingUp] = useState(false)
   const [error, setError] = useState(null)
+
+  useEffect(() => {
+    warmupBackend()
+  }, [])
 
   async function handleAnalyze() {
     const text = jobDescription.trim()
@@ -66,13 +70,27 @@ export default function JDMatchView({ onClose }) {
     setError(null)
     setAnalysis(null)
     setIsLoading(true)
+    setIsWakingUp(false)
+
+    const wakeTimer = setTimeout(() => {
+      setIsWakingUp(true)
+    }, 3200)
 
     try {
-      const res = await fetch(`${API_URL}/match-jd`, {
+      let res
+      const fetchPayload = {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ job_description: text }),
-      })
+      }
+
+      try {
+        res = await fetch(`${API_URL}/match-jd`, fetchPayload)
+      } catch (firstErr) {
+        setIsWakingUp(true)
+        await new Promise((r) => setTimeout(r, 2500))
+        res = await fetch(`${API_URL}/match-jd`, fetchPayload)
+      }
 
       if (res.status === 429) {
         throw new Error('Too many requests — please wait a minute and try again.')
@@ -81,11 +99,23 @@ export default function JDMatchView({ onClose }) {
         throw new Error(`Server responded with ${res.status}`)
       }
 
+      clearTimeout(wakeTimer)
+      setIsWakingUp(false)
+
       const data = await res.json()
       setAnalysis(data.analysis)
     } catch (err) {
-      setError(err.message || 'Something went wrong analyzing this job description.')
+      clearTimeout(wakeTimer)
+      setIsWakingUp(false)
+      const msg = err.message || 'Something went wrong analyzing this job description.'
+      if (msg.includes('Failed to fetch')) {
+        setError('Server is spinning up (free-tier cold start). Please wait ~15s and click Analyze again.')
+      } else {
+        setError(msg)
+      }
     } finally {
+      clearTimeout(wakeTimer)
+      setIsWakingUp(false)
       setIsLoading(false)
     }
   }
@@ -122,6 +152,13 @@ export default function JDMatchView({ onClose }) {
             <div className="jd-loading">
               <Sparkles size={18} className="ask-me-sparkle" />
               <span>Analyzing job description…</span>
+            </div>
+          )}
+
+          {isWakingUp && isLoading && (
+            <div className="waking-up-banner">
+              <span className="pulse-dot-amber" />
+              <span>Waking up free-tier backend (~15-20s cold start)... Hang tight!</span>
             </div>
           )}
 

@@ -1,9 +1,9 @@
 import { Mail, FileText, Github, Code2, Sparkles, Briefcase, Globe } from 'lucide-react'
-import { CANDIDATE } from './config'
+import { CANDIDATE, warmupBackend } from './config'
 
-function SquareIcon({ className, icon, label, onClick }) {
+function SquareIcon({ className, icon, label, onClick, onMouseEnter }) {
   return (
-    <button className={`dock-square ${className}`} onClick={onClick} title={label}>
+    <button className={`dock-square ${className}`} onClick={onClick} onMouseEnter={onMouseEnter} title={label}>
       {icon}
       <span className="dock-label">{label}</span>
     </button>
@@ -58,6 +58,7 @@ export default function Dock({ onOpenChat, onOpenJDMatch }) {
         icon={<Briefcase size={22} strokeWidth={2.2} />}
         label="Match a JD"
         onClick={onOpenJDMatch}
+        onMouseEnter={warmupBackend}
       />
 
       <SquareIcon
@@ -67,7 +68,7 @@ export default function Dock({ onOpenChat, onOpenJDMatch }) {
         onClick={() => window.open(CANDIDATE.runsOnUrl, '_blank')}
       />
 
-      <button className="ask-me-pill" onClick={onOpenChat}>
+      <button className="ask-me-pill" onClick={onOpenChat} onMouseEnter={warmupBackend}>
         <Sparkles size={18} className="ask-me-sparkle" />
         <span>Ask Me</span>
       </button>

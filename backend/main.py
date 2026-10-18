@@ -59,14 +59,27 @@ async def rate_limit_handler(request: Request, exc: RateLimitExceeded):
     )
 
 
-# Allow the React dev server (and your deployed frontend) to call this API.
-# Tighten allow_origins to your real frontend domain before going to production.
+# CORS setup: explicitly allow official runs-on.dev domain, legacy vercel app, and local dev
+default_allowed = [
+    "https://parthh.runs-on.dev",
+    "https://ai-portfolio-beige-xi.vercel.app",
+    "http://localhost:5173",
+    "http://localhost:3000",
+    "http://127.0.0.1:5173",
+    "http://127.0.0.1:3000",
+]
+
 allowed_origins_env = os.environ.get("ALLOWED_ORIGINS", "*")
-allowed_origins = [o.strip() for o in allowed_origins_env.split(",")] if allowed_origins_env != "*" else ["*"]
+if allowed_origins_env and allowed_origins_env != "*":
+    env_origins = [o.strip() for o in allowed_origins_env.split(",") if o.strip()]
+    allowed_origins = list(set(default_allowed + env_origins))
+else:
+    allowed_origins = ["*"]
 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=allowed_origins,
+    allow_origin_regex=r"^https?://([a-zA-Z0-9-]+\.)?(runs-on\.dev|vercel\.app)(:\d+)?$",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -87,6 +100,7 @@ class JDMatchRequest(BaseModel):
 
 
 @app.get("/health")
+@app.head("/health")
 def health():
     return {"status": "ok", "candidate": profile.name}
 

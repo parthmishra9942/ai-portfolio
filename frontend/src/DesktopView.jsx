@@ -1,7 +1,13 @@
+import { useEffect } from 'react'
 import Dock from './Dock'
-import { CANDIDATE } from './config'
+import { CANDIDATE, warmupBackend } from './config'
 
 export default function DesktopView({ onOpenChat, onOpenJDMatch }) {
+  useEffect(() => {
+    // Proactively warm up free-tier backend as soon as user opens portfolio
+    warmupBackend()
+  }, [])
+
   return (
     <div className="desktop">
       <div className="wallpaper" />
@@ -45,7 +51,7 @@ export default function DesktopView({ onOpenChat, onOpenJDMatch }) {
           </a>
         </div>
 
-        <button className="cta-button" onClick={onOpenChat}>
+        <button className="cta-button" onClick={onOpenChat} onMouseEnter={warmupBackend}>
           💬 Ask my AI anything
         </button>
       </div>

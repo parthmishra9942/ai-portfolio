@@ -519,6 +519,49 @@ body {
   padding: 8px 12px;
   border-radius: 8px;
   font-size: 0.82rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.retry-inline-btn {
+  background: #5c2a2a;
+  border: 1px solid #ff7b7b;
+  color: #fff;
+  padding: 3px 10px;
+  border-radius: 6px;
+  font-size: 0.78rem;
+  cursor: pointer;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: background 0.15s ease;
+}
+
+.retry-inline-btn:hover {
+  background: #7a3535;
+}
+
+.waking-up-banner {
+  background: rgba(245, 158, 11, 0.12);
+  color: #fbbf24;
+  border: 1px solid rgba(245, 158, 11, 0.35);
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 0.82rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+.pulse-dot-amber {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #f59e0b;
+  box-shadow: 0 0 8px #f59e0b;
+  flex-shrink: 0;
 }
 
 .input-bar {

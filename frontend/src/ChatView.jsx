@@ -1,6 +1,13 @@
 import { useState, useRef, useEffect } from 'react'
 import { X, Send } from 'lucide-react'
-import { CANDIDATE } from './config'
+import { CANDIDATE, API_URL, warmupBackend } from './config'
+
+const STARTER_QUESTIONS = [
+  'Tell me about your projects',
+  'Why should we hire you?',
+  "What's your tech stack?",
+  'Show me your backend skills',
+]
 
 function renderInlineBold(text) {
   const parts = text.split(/(\*\*[^*]+\*\*)/g)
@@ -52,31 +59,24 @@ function renderFormattedText(text) {
   return elements
 }
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000'
-
-const STARTER_QUESTIONS = [
-  'Tell me about your projects',
-  'Why should we hire you?',
-  "What's your tech stack?",
-  'Show me your backend skills',
-]
-
 export default function ChatView({ onClose }) {
   const [messages, setMessages] = useState([
     { role: 'assistant', content: `Hi! I'm ${CANDIDATE.name}'s AI representative. Ask me about his projects, skills, or background.` },
   ])
   const [input, setInput] = useState('')
   const [isStreaming, setIsStreaming] = useState(false)
+  const [isWakingUp, setIsWakingUp] = useState(false)
   const [error, setError] = useState(null)
   const bottomRef = useRef(null)
   const inputRef = useRef(null)
 
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: 'smooth' })
-  }, [messages])
+  }, [messages, isWakingUp])
 
   useEffect(() => {
     inputRef.current?.focus()
+    warmupBackend()
   }, [])
 
   async function sendMessage(overrideText) {
@@ -84,6 +84,7 @@ export default function ChatView({ onClose }) {
     if (!text || isStreaming) return
 
     setError(null)
+    setIsWakingUp(false)
     const userMessage = { role: 'user', content: text }
     const historyToSend = [...messages, userMessage]
 
@@ -91,16 +92,38 @@ export default function ChatView({ onClose }) {
     setInput('')
     setIsStreaming(true)
 
+    // Cold-start timer: if response takes >3.2 seconds, notify user that server is waking up
+    const wakeTimer = setTimeout(() => {
+      setIsWakingUp(true)
+    }, 3200)
+
     try {
-      const res = await fetch(`${API_URL}/chat`, {
+      let res
+      const fetchPayload = {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ messages: historyToSend }),
-      })
+      }
+
+      try {
+        res = await fetch(`${API_URL}/chat`, fetchPayload)
+      } catch (firstErr) {
+        // Auto-retry once after 2.5s if Render free-tier cold start caused connection drop
+        setIsWakingUp(true)
+        await new Promise((r) => setTimeout(r, 2500))
+        res = await fetch(`${API_URL}/chat`, fetchPayload)
+      }
+
+      if (res.status === 429) {
+        throw new Error('Too many requests — please wait a minute and try again.')
+      }
 
       if (!res.ok || !res.body) {
         throw new Error(`Server responded with ${res.status}`)
       }
+
+      clearTimeout(wakeTimer)
+      setIsWakingUp(false)
 
       const reader = res.body.getReader()
       const decoder = new TextDecoder()
@@ -137,8 +160,17 @@ export default function ChatView({ onClose }) {
         }
       }
     } catch (err) {
-      setError(err.message || 'Something went wrong talking to the backend.')
+      clearTimeout(wakeTimer)
+      setIsWakingUp(false)
+      const msg = err.message || 'Unable to connect to AI server.'
+      if (msg.includes('Failed to fetch')) {
+        setError('Server is spinning up (free-tier cold start). Please wait ~15s and click Retry below.')
+      } else {
+        setError(msg)
+      }
     } finally {
+      clearTimeout(wakeTimer)
+      setIsWakingUp(false)
       setIsStreaming(false)
     }
   }
@@ -175,7 +207,30 @@ export default function ChatView({ onClose }) {
               </div>
             </div>
           ))}
-          {error && <div className="error-banner">⚠️ {error}</div>}
+          {isWakingUp && isStreaming && (
+            <div className="waking-up-banner">
+              <span className="pulse-dot-amber" />
+              <span>Waking up free-tier backend (~15-20s cold start)... Hang tight!</span>
+            </div>
+          )}
+          {error && (
+            <div className="error-banner">
+              <span>⚠️ {error}</span>
+              <button
+                type="button"
+                className="retry-inline-btn"
+                onClick={() => {
+                  const lastUserMsg = messages.filter((m) => m.role === 'user').slice(-1)[0]
+                  if (lastUserMsg) {
+                    setError(null)
+                    sendMessage(lastUserMsg.content)
+                  }
+                }}
+              >
+                ↻ Retry
+              </button>
+            </div>
+          )}
 
           {messages.length === 1 && !isStreaming && (
             <div className="starter-questions">
