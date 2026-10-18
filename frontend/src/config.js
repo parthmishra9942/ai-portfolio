@@ -7,6 +7,7 @@ export const CANDIDATE = {
   linkedin: 'https://linkedin.com/in/parth-mishra-4b7578242',
   github: 'https://github.com/parthmishra9942',
   leetcode: 'https://leetcode.com/u/parth213g',
+  portfolioUrl: 'https://parthh.runs-on.dev',
   // Resume PDF — opens when the "Resume" dock icon is clicked
   resumeUrl: 'https://github.com/parthmishra9942/resume/blob/main/ParthMishra_Resume%20(1).pdf',
   // runs-on.dev developer domain link

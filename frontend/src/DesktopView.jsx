@@ -32,15 +32,15 @@ export default function DesktopView({ onOpenChat, onOpenJDMatch }) {
 
         <div className="subdomain-badge-wrap">
           <a
-            href={CANDIDATE.runsOnUrl}
+            href={CANDIDATE.portfolioUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="subdomain-pill"
-            title="Visit runs-on.dev · free developer subdomains"
+            title="Live on runs-on.dev"
           >
             <span className="pulse-dot-green" />
-            <span className="subdomain-text">parthmishra.runs-on.dev</span>
-            <span className="subdomain-tag">free subdomain</span>
+            <span className="subdomain-text">parthh.runs-on.dev</span>
+            <span className="subdomain-tag">live</span>
             <span className="subdomain-arrow">↗</span>
           </a>
         </div>
