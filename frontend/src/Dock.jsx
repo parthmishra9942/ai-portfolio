@@ -1,4 +1,4 @@
-import { Mail, FileText, Github, Code2, Sparkles, Briefcase, Globe } from 'lucide-react'
+import { Mail, FileText, Github, Code2, Sparkles, Briefcase } from 'lucide-react'
 import { CANDIDATE, warmupBackend } from './config'
 
 function SquareIcon({ className, icon, label, onClick, onMouseEnter }) {
@@ -59,13 +59,6 @@ export default function Dock({ onOpenChat, onOpenJDMatch }) {
         label="Match a JD"
         onClick={onOpenJDMatch}
         onMouseEnter={warmupBackend}
-      />
-
-      <SquareIcon
-        className="icon-runs-on"
-        icon={<Globe size={22} strokeWidth={2.2} />}
-        label="runs-on.dev"
-        onClick={() => window.open(CANDIDATE.runsOnUrl, '_blank')}
       />
 
       <button className="ask-me-pill" onClick={onOpenChat} onMouseEnter={warmupBackend}>
