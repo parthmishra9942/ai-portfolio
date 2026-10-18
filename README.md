@@ -1,8 +1,12 @@
 # AI Portfolio — Parth Mishra
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-parthh.runs--on.dev-0284c7?style=for-the-badge&logo=googlechrome&logoColor=white)](https://parthh.runs-on.dev)
+[![GitHub](https://img.shields.io/badge/GitHub-parthmishra9942-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/parthmishra9942)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Parth_Mishra-0077b5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/parth-mishra-4b7578242)
+
 An interactive portfolio site where recruiters and visitors can **chat with an AI representative** of me, and even **paste a job description to get an instant suitability breakdown** against my actual skills and projects.
 
-**🌐 Official Portfolio Domain:** [parthh.runs-on.dev](https://parthh.runs-on.dev) &nbsp;·&nbsp; **🔗 Vercel Deployment:** [ai-portfolio-beige-xi.vercel.app](https://ai-portfolio-beige-xi.vercel.app/)
+**🌐 Official Portfolio Domain:** [parthh.runs-on.dev](https://parthh.runs-on.dev)
 
 
 
@@ -134,9 +138,10 @@ Once you have your Vercel URL, add `ALLOWED_ORIGINS` on Render pointing to it, s
 ## 📬 Contact
 
 - **Email:** parthmishra9942@gmail.com
-- **LinkedIn:** [linkedin.com/in/your-profile](#)
+- **Portfolio:** [parthh.runs-on.dev](https://parthh.runs-on.dev)
+- **LinkedIn:** [linkedin.com/in/parth-mishra-4b7578242](https://linkedin.com/in/parth-mishra-4b7578242)
 - **GitHub:** [github.com/parthmishra9942](https://github.com/parthmishra9942)
-- **LeetCode:** [leetcode.com/your-profile](#)
+- **LeetCode:** [leetcode.com/u/parth213g](https://leetcode.com/u/parth213g)
 
 ---
 
