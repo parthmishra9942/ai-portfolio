@@ -2,9 +2,8 @@
 
 An interactive portfolio site where recruiters and visitors can **chat with an AI representative** of me, and even **paste a job description to get an instant suitability breakdown** against my actual skills and projects.
 
-**🔗 Live demo:** [your-portfolio.vercel.app](#) &nbsp;·&nbsp; **⚙️ API:** [your-app.onrender.com](#)
+**🔗 Live Demo:** [ai-portfolio-beige-xi.vercel.app](https://ai-portfolio-beige-xi.vercel.app/) &nbsp;·&nbsp; **🌐 Custom Developer Subdomain:** [runs-on.dev](https://runs-on.dev/?utm_source=sp_auto_dm&utm_referrer=sp_auto_dm&fbclid=PAVERTVgVBrvxleHRuA2FlbQIxMABwZG9mAnNydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABp0yVLa5vyhZ5UnGxuAxtYFMx-Un9icPSlwApBCBTNtLSXnOKFl0ghq7FyTDU_aem_M8cnufu5pdIW6l4F1kIn8g)
 
-> Replace the links above once deployed (see [Deployment](#deployment) below).
 
 ---
 

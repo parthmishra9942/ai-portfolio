@@ -7,13 +7,44 @@ export default function DesktopView({ onOpenChat, onOpenJDMatch }) {
       <div className="wallpaper" />
 
       <div className="menubar">
-        <span className="menubar-dot">●</span>
-        <span>{CANDIDATE.fullName}</span>
+        <div className="menubar-left">
+          <span className="menubar-dot">●</span>
+          <span>{CANDIDATE.fullName}</span>
+        </div>
+        <div className="menubar-right">
+          <a
+            href={CANDIDATE.runsOnUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="menubar-pill"
+            title="Claim your own free subdomain on runs-on.dev"
+          >
+            <span className="live-dot" />
+            <span className="menubar-pill-text">runs-on.dev</span>
+            <span className="menubar-arrow">↗</span>
+          </a>
+        </div>
       </div>
 
       <div className="greeting">
         <p className="greeting-hi">Hey, I'm {CANDIDATE.name}! welcome to my</p>
         <h1 className="greeting-title">PORTFOLIO</h1>
+
+        <div className="subdomain-badge-wrap">
+          <a
+            href={CANDIDATE.runsOnUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="subdomain-pill"
+            title="Visit runs-on.dev · free developer subdomains"
+          >
+            <span className="pulse-dot-green" />
+            <span className="subdomain-text">parthmishra.runs-on.dev</span>
+            <span className="subdomain-tag">free subdomain</span>
+            <span className="subdomain-arrow">↗</span>
+          </a>
+        </div>
+
         <button className="cta-button" onClick={onOpenChat}>
           💬 Ask my AI anything
         </button>
