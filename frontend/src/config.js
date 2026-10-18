@@ -9,7 +9,7 @@ export const CANDIDATE = {
   leetcode: 'https://leetcode.com/u/parth213g',
   portfolioUrl: 'https://parthh.runs-on.dev',
   // Resume PDF — opens when the "Resume" dock icon is clicked
-  resumeUrl: 'https://github.com/parthmishra9942/resume/blob/main/ParthMishra_Resume%20(1).pdf',
+  resumeUrl: 'https://github.com/parthmishra9942/resume/blob/main/Parth_Mishra_Resume_AI.pdf',
   // runs-on.dev developer domain link
 }
 
