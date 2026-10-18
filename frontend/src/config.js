@@ -13,7 +13,14 @@ export const CANDIDATE = {
   // runs-on.dev developer domain link
 }
 
-export const API_URL = import.meta.env.VITE_API_URL || 'https://ai-portfolio-backend-255o.onrender.com'
+// In production on runs-on.dev or vercel.app, use the same-origin /api rewrite proxy.
+// This eliminates cross-origin CORS blocks and preflight roundtrips completely.
+export const API_URL =
+  typeof window !== 'undefined' &&
+  window.location.hostname !== 'localhost' &&
+  window.location.hostname !== '127.0.0.1'
+    ? '/api'
+    : (import.meta.env.VITE_API_URL || 'http://localhost:8000')
 
 export function warmupBackend() {
   try {
