@@ -133,6 +133,94 @@ def chat(request: Request, req: ChatRequest):
     return StreamingResponse(token_stream(), media_type="text/event-stream")
 
 
+class PortfolioChatRequest(BaseModel):
+    message: str
+
+
+@app.post("/portfolio/chat")
+@app.post("/api/portfolio/chat")
+def portfolio_chat(req: PortfolioChatRequest):
+    """Grounded AI Representative API for Parth Mishra's Portfolio."""
+    msg = req.message.lower().strip()
+
+    if any(k in msg for k in ["gmail", "email", "mail", "contact", "phone", "reach", "connect", "inbox"]):
+        return {
+            "status": "success",
+            "response": "Parth Mishra can be contacted directly via:\n\n- **Email**: **parthmishra9942@gmail.com**\n- **LinkedIn**: [linkedin.com/in/parth-mishra-4b7578242](https://linkedin.com/in/parth-mishra-4b7578242)\n- **GitHub**: [github.com/parthmishra9942](https://github.com/parthmishra9942)\n\nHe typically responds to engineering and hiring inquiries within a few hours!"
+        }
+
+    if any(k in msg for k in ["why", "hire", "candidate", "value", "strengths"]):
+        return {
+            "status": "success",
+            "response": "Here is why **Parth Mishra** is an exceptional candidate for AI & Full-Stack Engineering roles:\n\n1. **First-Principles Engineering**: Builds low-latency systems from scratch (in-memory VectorDB with HNSW graph indexing, 0ms on-device NLU) rather than assembling shallow wrapper APIs.\n2. **Academic & Algorithmic Grit**: B.Tech CSE (AI & ML) with **8.67 CGPA** at VIT Bhopal, and **250+ solved algorithmic problems** across LeetCode, GFG, and HackerRank.\n3. **Certified Competence**: Holds the industry **Oracle Certified Foundations Associate in Agentic AI** credential (`103546830AAI26OFA`), **Harvard CS50 AI with Python**, and **UMichigan Applied ML**.\n4. **Production Readiness**: Ships robust full-stack production systems (Python, FastAPI, TypeScript, React, Docker) with sub-100ms API response targets.\n\nHe is available immediately for internships and 2027 grad full-time roles. Contact: **parthmishra9942@gmail.com**"
+        }
+
+    if any(k in msg for k in ["stack", "tech", "skill", "language", "technolog"]):
+        return {
+            "status": "success",
+            "response": "**Parth's Primary Technical Stack & Skills**:\n\n- **Languages**: Python (Primary), TypeScript, JavaScript, SQL, C++\n- **AI & ML**: Agentic AI (Oracle Certified), Vector Search (HNSW), RAG Pipelines, Claude 3.5 Sonnet Vision, PyTorch, Ollama\n- **Backend & Systems**: FastAPI, Node.js, Express, Uvicorn, REST APIs, WebSockets, JWT Auth, Rate Limiting\n- **Frontend & Mobile**: React, React Native (Expo), Vite, Tailwind CSS, IndexedDB, Progressive Web Apps (PWA)\n- **Databases & DevOps**: PostgreSQL, Supabase, SQLite, Docker, Git/GitHub, Linux CLI"
+        }
+
+    if any(k in msg for k in ["fleet", "agent", "autonomous", "job search", "antigravity", "forge"]):
+        return {
+            "status": "success",
+            "response": "The **Antigravity Job Fleet** is an autonomous 4-agent system built to streamline engineering placement discovery and outreach:\n\n- **Scout Agent**: Zero-auth multi-stream scraper across Remotive, Arbeitnow, Jobicy, and Internshala with SHA-256 anti-duplicate hashing.\n- **Job Reader**: DOM parser & ATS matching engine calculating compatibility against Parth's profile.\n- **CV Adapter**: Dynamic dual-resume router (Full-Stack vs AI/ML Specialist).\n- **Dispatcher Agent**: Dispatches cold emails and streams real-time FastAPI WebSocket telemetry in under 70ms.\n\nScale: Over **140 verified applications** managed with 100% account safety and zero LinkedIn scraping.\nRepo: [github.com/parthmishra9942/my-job-search](https://github.com/parthmishra9942/my-job-search)"
+        }
+
+    if any(k in msg for k in ["credential", "cgpa", "gpa", "cert", "oracle", "harvard", "cs50", "coursera", "degree", "college", "vit", "bhopal"]):
+        return {
+            "status": "success",
+            "response": "**Academic Standing & Verified Credentials**:\n\n- **Academic Honor Roll**: B.Tech CSE (AI & ML) at **VIT Bhopal University** (Batch 2023–2027) with an **8.67 CGPA**\n- **Oracle Certified**: Foundations Associate in **Agentic AI** (Sept 2026, Credential ID: `103546830AAI26OFA`)\n- **Harvard University**: CS50's Introduction to Artificial Intelligence with Python (Verify ID: `3e7e245a-5d02-4e80-ac1f-375fd52c3581`)\n- **University of Michigan**: Applied Machine Learning in Python (Coursera: `G1Q6ZYPKPWP4`)\n- **Competitive Programming**: 250+ algorithmic problems solved on LeetCode & HackerRank"
+        }
+
+    if any(k in msg for k in ["voicecart", "voice", "speech", "nlu", "audio"]):
+        return {
+            "status": "success",
+            "response": "**VoiceCart** is a 100% on-device voice shopping assistant running completely client-side in the browser:\n\n- **0ms Cloud Network Latency**: Operates with zero user telemetry sent to servers\n- **Deterministic Local NLU**: Browser-native Web Speech recognition with rule-based intent & entity parsing\n- **Offline PWA**: IndexedDB storage with optimistic UI reconciliation\n\nCode: [github.com/parthmishra9942/voicecart](https://github.com/parthmishra9942/voicecart)"
+        }
+
+    if any(k in msg for k in ["meal", "aimealtracker", "food", "nutrition", "diet"]):
+        return {
+            "status": "success",
+            "response": "**AIMealTracker** is a multi-modal meal nutritional analyzer powered by Claude 3.5 Sonnet Vision:\n\n- Parses nuanced colloquial Indian home-cooked meals with **94% parsing accuracy**\n- Extracts structured JSON macronutrients and micronutrients\n- Sub-800ms parsing turnaround via async FastAPI backend caching\n\nCode: [github.com/parthmishra9942/Ai-Meal-Tracker](https://github.com/parthmishra9942/Ai-Meal-Tracker)"
+        }
+
+    if any(k in msg for k in ["project", "work", "repo", "built", "github"]):
+        return {
+            "status": "success",
+            "response": "Here are Parth's flagship open-source engineering originals:\n\n1. **[VectorDB (HNSW)](https://github.com/parthmishra9942/vectordb-python)**: Pure Python in-memory vector database with HNSW graph indexing (<15ms latency, 38× speedup).\n2. **[VoiceCart](https://github.com/parthmishra9942/voicecart)**: 100% on-device voice shopping assistant with deterministic NLU and 0ms cloud latency.\n3. **[AIMealTracker](https://github.com/parthmishra9942/Ai-Meal-Tracker)**: Multi-modal vision nutrition analyzer using Claude 3.5 Sonnet Vision (94% accuracy).\n4. **[Antigravity Job Fleet](https://github.com/parthmishra9942/my-job-search)**: Decoupled 4-agent autonomous placement & outreach engine.\n\nExplore his full GitHub: [github.com/parthmishra9942](https://github.com/parthmishra9942)"
+        }
+
+    if any(k in msg for k in ["location", "city", "where", "relocat", "remote", "bengaluru", "hyderabad", "pune", "delhi"]):
+        return {
+            "status": "success",
+            "response": "**Location & Relocation Details**:\n\n- **Current Base**: VIT Bhopal University campus / Madhya Pradesh, India\n- **Relocation Availability**: **100% open to relocate** across Bengaluru, Hyderabad, Pune, Gurgaon, Noida, or Mumbai.\n- **Work Modes**: Flexible for on-site, hybrid, or global remote engineering roles."
+        }
+
+    if any(k in msg for k in ["resume", "cv", "pdf"]):
+        return {
+            "status": "success",
+            "response": "You can view and download Parth's official 1-page engineering resume here:\n\n📄 **[Download Parth Mishra's Resume PDF](/assets/Parth_Mishra_Resume.pdf)**\n\nHighlights: 8.67 CGPA @ VIT Bhopal, Oracle Certified Agentic AI, 250+ DSA problems, VectorDB, VoiceCart."
+        }
+
+    if any(k in msg for k in ["vectordb", "hnsw", "vector search"]):
+        return {
+            "status": "success",
+            "response": "**VectorDB (HNSW)** is an in-memory vector database built from scratch in Python with Hierarchical Navigable Small World (HNSW) graph indexing.\n\n- **Sub-15ms retrieval latency** with a **38× speedup** over brute-force search\n- Multi-layer graph navigation with Cosine, Euclidean, and Dot Product distance metrics\n- Standalone REST API in FastAPI\n\nCode: [github.com/parthmishra9942/vectordb-python](https://github.com/parthmishra9942/vectordb-python)"
+        }
+
+    if any(k in msg for k in ["anything", "surprise", "what can you do", "help", "random", "options"]):
+        return {
+            "status": "success",
+            "response": "Here are the top systems you can explore about **Parth Mishra**:\n\n1. **VectorDB (HNSW)**: In-memory vector database built from scratch in Python (<15ms latency, 38× speedup).\n2. **VoiceCart**: 100% on-device voice shopping assistant with 0ms cloud latency.\n3. **Autonomous 4-Agent Fleet**: Multi-agent pipeline coordinating 140+ applications with zero LinkedIn scraping.\n4. **Verified Certifications**: Oracle Certified in Agentic AI (`103546830AAI26OFA`), Harvard CS50 AI, and UMichigan ML.\n5. **Academic Standing**: 8.67 CGPA at VIT Bhopal.\n\nAsk me about his **projects**, **tech stack**, **resume**, or **how to hire him**!"
+        }
+
+    return {
+        "status": "success",
+        "response": "Parth Mishra is an AI & Systems Engineer with an **8.67 CGPA** at VIT Bhopal.\n\nI can answer questions regarding:\n- **Contact**: Email at **parthmishra9942@gmail.com**\n- **Projects**: VectorDB (HNSW), VoiceCart, Autonomous Fleet, AIMealTracker\n- **Credentials**: Oracle Certified Agentic AI, Harvard CS50 AI, UMichigan ML\n- **Resume**: Download direct PDF sheet\n\nFeel free to ask any specific question!"
+    }
+
+
 @app.post("/match-jd")
 @limiter.limit("5/minute")
 def match_jd(request: Request, req: JDMatchRequest):

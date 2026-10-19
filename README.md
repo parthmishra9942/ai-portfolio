@@ -1,156 +1,57 @@
-# AI Portfolio — Parth Mishra
+# Parth — The Series | AI & Full-Stack Systems Portfolio
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-parthh.runs--on.dev-0284c7?style=for-the-badge&logo=googlechrome&logoColor=white)](https://parthh.runs-on.dev)
+[![Live Portfolio](https://img.shields.io/badge/Official_Domain-parthh.runs--on.dev-0284c7?style=for-the-badge&logo=googlechrome&logoColor=white)](https://parthh.runs-on.dev)
+[![Vercel Deployment](https://img.shields.io/badge/Vercel_Mirror-ai--portfolio--beige--xi.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://ai-portfolio-beige-xi.vercel.app)
 [![GitHub](https://img.shields.io/badge/GitHub-parthmishra9942-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/parthmishra9942)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Parth_Mishra-0077b5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/parth-mishra-4b7578242)
 
-An interactive portfolio site where recruiters and visitors can **chat with an AI representative** of me, and even **paste a job description to get an instant suitability breakdown** against my actual skills and projects.
+A cinematic, streaming-inspired engineering portfolio for **Parth Mishra** — AI & Machine Learning Systems Engineer and Final-Year B.Tech CSE student at **VIT Bhopal University** (8.67 CGPA).
 
-**🌐 Official Portfolio Domain:** [parthh.runs-on.dev](https://parthh.runs-on.dev)
-
-
-
----
-
-## ✨ Features
-
-- **💬 Ask Me — AI Chat**
-  A streaming chat window where visitors can ask about my projects, skills, and background. Powered by an LLM grounded only in my real candidate data — no hallucinated experience.
-
-- **💼 JD Match — Suitability Check**
-  Recruiters can paste a job description and get an instant, structured breakdown:
-  1. Suitability verdict (Yes / Partially / No)
-  2. Missing skills or requirements
-  3. Strongest matching points
-  4. Interview recommendation
-
-- **🛡️ Rate limiting**
-  Both AI endpoints are protected against abuse (20 req/min on `/chat`, 5 req/min on `/match-jd`) so the API key stays safe even when the URL is public.
-
-- **🖥️ Desktop-style UI**
-  A macOS-inspired desktop with a dock, floating "windows" for chat and JD-match, and quick links to email, LinkedIn, GitHub, LeetCode, and résumé.
+Both URLs open the exact same high-performance cinematic experience:
+- **🌐 Primary Custom Domain:** [https://parthh.runs-on.dev](https://parthh.runs-on.dev)
+- **⚡ Vercel Deployment Link:** [https://ai-portfolio-beige-xi.vercel.app](https://ai-portfolio-beige-xi.vercel.app)
 
 ---
 
-## 🧱 Tech Stack
+## 🎬 Core Experience & Interactive Modules
 
-| Layer      | Tech |
-|------------|------|
-| Frontend   | React (Vite), plain CSS |
-| Backend    | FastAPI (Python) |
-| LLM        | [Groq](https://groq.com) — `openai/gpt-oss-20b` |
-| Rate limit | [slowapi](https://github.com/laurentS/slowapi) |
-| Hosting    | Vercel (frontend) · Render (backend) |
+1. **🤖 Ask AI Representative**
+   - Grounded knowledge engine answering recruiters and engineers on tech stack, projects, academic standing, and contact info.
+   - Dual-layer architecture: tries the backend rewrite proxy (`/api/portfolio/chat`) and features a sub-second client-side knowledge fallback for 100% uptime with zero cold-starts.
 
----
+2. **⚡ VectorDB HNSW Benchmark Simulator**
+   - Live interactive benchmark demonstrating a verified **38.2× speedup** and **<15ms query latency** over brute-force linear search.
+   - Visual comparison of multi-layer graph navigation vs exhaustive scans across 10,000+ vector spaces.
 
-## 📂 Project Structure
+3. **🎙️ VoiceCart On-Device NLU Simulator**
+   - Interactive speech recognition simulator showcasing **0ms cloud network latency** and deterministic client-side intent/entity parsing.
 
-```
-ai-portfolio/
-├── backend/
-│   ├── main.py            # FastAPI app: /health, /chat, /match-jd
-│   ├── models.py           # Candidate profile loading + validation
-│   ├── system_prompt.py    # Builds the LLM system prompt from profile data
-│   ├── requirements.txt
-│   └── .env                # GROQ_API_KEY (not committed)
-├── data/                   # Candidate profile data
-└── frontend/
-    └── src/
-        ├── App.jsx          # Root component, view state
-        ├── DesktopView.jsx  # Landing "desktop" view
-        ├── Dock.jsx         # macOS-style dock with app icons
-        ├── ChatView.jsx     # AI chat window
-        ├── JDMatchView.jsx  # JD-matching window
-        └── config.js        # Candidate contact/profile info
-```
+4. **🚀 Antigravity 4-Agent Autonomous Fleet Telemetry**
+   - Live WebSocket / telemetry inspector demonstrating the 4 decoupled agents: **Scout**, **Job Reader**, **CV Adapter**, and **Dispatcher** (140+ verified applications tracked).
+
+5. **⚡ 1-Minute Recruiter Reel & Dossier**
+   - Rapid-fire executive summary for engineering recruiters: verified 8.67 CGPA, Oracle Certified Agentic AI (`103546830AAI26OFA`), Harvard CS50 AI, and 250+ solved algorithmic problems.
+
+6. **💻 Developer CLI Terminal (Press `\`\`\`)**
+   - Embedded shell terminal with executable commands (`stack`, `bench`, `certs`, `projects`, `contact`, `resume`).
 
 ---
 
-## 🚀 Running Locally
+## 🧱 Architecture & Tech Stack
 
-### Prerequisites
-- Python 3.12+
-- Node.js 18+
-- A free [Groq API key](https://console.groq.com)
-
-### 1. Clone the repo
-```bash
-git clone https://github.com/parthmishra9942/ai-portfolio.git
-cd ai-portfolio
-```
-
-### 2. Backend setup
-```bash
-cd backend
-pip install -r requirements.txt
-```
-
-Create `backend/.env`:
-```
-GROQ_API_KEY=your_groq_api_key_here
-```
-
-Run it:
-```bash
-uvicorn main:app --reload --port 8000
-```
-Visit `http://localhost:8000/health` — you should see `{"status":"ok","candidate":"Parth Mishra"}`.
-
-### 3. Frontend setup
-```bash
-cd ../frontend
-npm install
-npm run dev
-```
-Visit `http://localhost:5173`.
+| Layer | Technology |
+| :--- | :--- |
+| **Frontend UI** | React 18, TypeScript, Tailwind CSS v4, Framer Motion, Lenis Smooth Scroll, Vite |
+| **Backend & APIs** | FastAPI, Python 3.12, Uvicorn, slowapi rate limiting |
+| **Edge & Hosting** | Vercel Edge Network (`parthh.runs-on.dev` + `ai-portfolio-beige-xi.vercel.app`) |
+| **API Proxy** | Vercel `/api/:path*` rewrite proxy to Render backend |
 
 ---
 
-## 🌐 Deployment
+## 📬 Direct Contact
 
-**Backend → Render**
-1. New Web Service → connect this repo → Root Directory: `backend`
-2. Build Command: `pip install -r requirements.txt`
-3. Start Command: `uvicorn main:app --host 0.0.0.0 --port $PORT`
-4. Add environment variable `GROQ_API_KEY`
-
-**Frontend → Vercel**
-1. Add New Project → connect this repo → Root Directory: `frontend`
-2. Add environment variable `VITE_API_URL` = your Render URL
-3. Deploy
-
-**Lock down CORS**
-Once you have your Vercel URL, add `ALLOWED_ORIGINS` on Render pointing to it, so only your real frontend can call the API.
-
-> ⚠️ Render's free tier sleeps after 15 minutes of inactivity — the first request afterward can take 30–50 seconds to wake up. This is expected on free hosting.
-
----
-
-## 🔒 Security Notes
-
-- `.env` is gitignored — the real Groq key is never committed.
-- Both AI endpoints are rate-limited per IP.
-- CORS is restricted to the deployed frontend origin in production.
-
----
-
-## 📬 Contact
-
-- **Email:** parthmishra9942@gmail.com
-- **Portfolio:** [parthh.runs-on.dev](https://parthh.runs-on.dev)
-- **LinkedIn:** [linkedin.com/in/parth-mishra-4b7578242](https://linkedin.com/in/parth-mishra-4b7578242)
-- **GitHub:** [github.com/parthmishra9942](https://github.com/parthmishra9942)
-- **LeetCode:** [leetcode.com/u/parth213g](https://leetcode.com/u/parth213g)
-
----
-
-## 📸 Screenshots
-
-> Add screenshots or a GIF here once deployed — this is the first thing recruiters see.
-
-```
-![Desktop view](./screenshots/desktop.png)
-![Chat view](./screenshots/chat.png)
-![JD match view](./screenshots/jd-match.png)
-```
+- **Email**: [parthmishra9942@gmail.com](mailto:parthmishra9942@gmail.com)
+- **LinkedIn**: [linkedin.com/in/parth-mishra-4b7578242](https://linkedin.com/in/parth-mishra-4b7578242)
+- **GitHub**: [github.com/parthmishra9942](https://github.com/parthmishra9942)
+- **Primary Domain**: [parthh.runs-on.dev](https://parthh.runs-on.dev)
+- **Vercel Mirror**: [ai-portfolio-beige-xi.vercel.app](https://ai-portfolio-beige-xi.vercel.app)
