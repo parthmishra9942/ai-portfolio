@@ -78,7 +78,7 @@ export default function RecruiterReelModal({ onClose }: { onClose: () => void })
         <div className="mt-6 grid gap-3 sm:grid-cols-2">
           <div className="rounded-xl border border-white/10 bg-white/5 p-4">
             <span className="text-[10px] font-bold uppercase tracking-wider text-crimson-2">Academic & Problem Solving</span>
-            <p className="mt-1 font-display text-xl text-bone">8.67 CGPA • 250+ Solved</p>
+            <p className="mt-1 font-display text-xl text-bone">8.70 CGPA • 250+ Solved</p>
             <p className="mt-1 text-xs text-mist leading-relaxed">
               Top percentile B.Tech CSE (AI & ML) at VIT Bhopal. Algorithmic mastery across Graphs, DP, Trees, and Two Pointers on LeetCode & HackerRank.
             </p>

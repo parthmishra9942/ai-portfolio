@@ -5,7 +5,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-parthmishra9942-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/parthmishra9942)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Parth_Mishra-0077b5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/parth-mishra-4b7578242)
 
-A cinematic, streaming-inspired engineering portfolio for **Parth Mishra** — AI & Machine Learning Systems Engineer and Final-Year B.Tech CSE student at **VIT Bhopal University** (8.67 CGPA).
+A cinematic, streaming-inspired engineering portfolio for **Parth Mishra** — AI & Machine Learning Systems Engineer and Final-Year B.Tech CSE student at **VIT Bhopal University** (8.70 CGPA).
 
 Both URLs open the exact same high-performance cinematic experience:
 - **🌐 Primary Custom Domain:** [https://parthh.runs-on.dev](https://parthh.runs-on.dev)
@@ -30,7 +30,7 @@ Both URLs open the exact same high-performance cinematic experience:
    - Live WebSocket / telemetry inspector demonstrating the 4 decoupled agents: **Scout**, **Job Reader**, **CV Adapter**, and **Dispatcher** (140+ verified applications tracked).
 
 5. **⚡ 1-Minute Recruiter Reel & Dossier**
-   - Rapid-fire executive summary for engineering recruiters: verified 8.67 CGPA, Oracle Certified Agentic AI (`103546830AAI26OFA`), Harvard CS50 AI, and 250+ solved algorithmic problems.
+   - Rapid-fire executive summary for engineering recruiters: verified 8.70 CGPA, Oracle Certified Agentic AI (`103546830AAI26OFA`), Harvard CS50 AI, and 250+ solved algorithmic problems.
 
 6. **💻 Developer CLI Terminal (Press `\`\`\`)**
    - Embedded shell terminal with executable commands (`stack`, `bench`, `certs`, `projects`, `contact`, `resume`).

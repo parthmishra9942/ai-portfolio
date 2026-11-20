@@ -1,7 +1,7 @@
 /**
  * Central portfolio data — PARTH — THE SERIES
  * A cinematic, streaming-inspired portfolio for Parth Mishra:
- * AI / ML Engineer & Full-Stack Systems Specialist (VIT Bhopal Batch 2027 | 8.67 CGPA).
+ * AI / ML Engineer & Full-Stack Systems Specialist (VIT Bhopal Batch 2027 | 8.70 CGPA).
  */
 
 export type Palette = { from: string; via: string; to: string; accent: string };
@@ -14,9 +14,9 @@ export const profile = {
   /** Fictional studio card shown at the very start of the opening sequence. */
   originalLabel: 'A MISHRA ORIGINAL',
   role: 'AI & Machine Learning Engineer | Full-Stack Systems',
-  tagline: ['Agentic AI', 'Vector Search & LLMs', 'Full-Stack Systems', 'VIT Bhopal (8.67 CGPA)'],
+  tagline: ['Agentic AI', 'Vector Search & LLMs', 'Full-Stack Systems', 'VIT Bhopal (8.70 CGPA)'],
   intro:
-    'A Computer Science Engineering student specializing in AI & Machine Learning at VIT Bhopal University (CGPA 8.67). Building low-latency AI architectures, in-memory HNSW vector search engines, and resilient full-stack systems with Python, FastAPI, React, TypeScript, and Docker.',
+    'A Computer Science Engineering student specializing in AI & Machine Learning at VIT Bhopal University (CGPA 8.70). Building low-latency AI architectures, in-memory HNSW vector search engines, and resilient full-stack systems with Python, FastAPI, React, TypeScript, and Docker.',
   location: 'Kanpur, UP • Bhopal, MP, India',
   email: 'parthmishra9942@gmail.com',
   links: {
@@ -38,7 +38,7 @@ export const education = [
     place: 'Bhopal, MP',
     degree: 'Bachelor of Technology — Computer Science & Engineering (AI/ML)',
     period: '2023 – 2027',
-    score: 'CGPA 8.67',
+    score: 'CGPA 8.70',
   },
   {
     school: 'Senior Secondary Schooling',
@@ -230,7 +230,7 @@ export const achievements: Achievement[] = [
   },
   {
     id: 'academic-standing',
-    title: '8.67 CGPA',
+    title: '8.70 CGPA',
     org: 'VIT Bhopal University',
     detail: 'Top percentile academic standing in B.Tech Computer Science & Engineering (AI/ML specialization).',
     laurel: 'Academic Excellence',
@@ -262,7 +262,7 @@ export const certifications: Certification[] = [
   { issuer: 'UMichigan', name: 'Applied Machine Learning in Python (Coursera)', link: 'https://www.coursera.org/verify/G1Q6ZYPKPWP4', credentialId: 'G1Q6ZYPKPWP4' },
   { issuer: 'LeetCode', name: '250+ Solved Algorithmic Badge & Profile', link: 'https://leetcode.com/u/parth213g' },
   { issuer: 'HackerRank', name: 'Problem Solving & Python Gold Badges', link: 'https://www.hackerrank.com/profile/parthmishra9942' },
-  { issuer: 'VIT Bhopal', name: 'B.Tech CSE (AI/ML) – 8.67 CGPA Honor Roll & Resume', link: '/assets/Parth_Mishra_Resume.pdf' },
+  { issuer: 'VIT Bhopal', name: 'B.Tech CSE (AI/ML) – 8.70 CGPA Honor Roll & Resume', link: '/assets/Parth_Mishra_Resume.pdf' },
 ];
 
 export type Skill = { name: string; mono: string; note?: string };
@@ -411,8 +411,8 @@ export const seasons: Season[] = [
       {
         code: 'S02 E01',
         title: 'The AI Engineer Takes Shape',
-        description: 'B.Tech in Artificial Intelligence & Machine Learning at VIT Bhopal University, achieving a standout 8.67 CGPA.',
-        tags: ['VIT Bhopal', 'AI/ML', 'CGPA 8.67'],
+        description: 'B.Tech in Artificial Intelligence & Machine Learning at VIT Bhopal University, achieving a standout 8.70 CGPA.',
+        tags: ['VIT Bhopal', 'AI/ML', 'CGPA 8.70'],
         runtime: '2023 – Present',
         palette: violet,
       },
@@ -498,7 +498,7 @@ export const topPicks: TopPick[] = [
   { label: 'The Flagship Original', title: 'VectorDB (HNSW)', detail: 'Sub-15ms vector retrieval • 38x speedup over brute-force', palette: crimson },
   { label: 'Industry Credential', title: 'Oracle Agentic AI', detail: 'Certified Foundations Associate (Sept 2026)', palette: ocean },
   { label: 'On-Device AI', title: 'VoiceCart', detail: '100% on-device deterministic NLU • Zero telemetry PWA', palette: amber },
-  { label: 'Academic Standing', title: '8.67 CGPA', detail: 'B.Tech CSE (AI/ML) @ VIT Bhopal University', palette: violet },
+  { label: 'Academic Standing', title: '8.70 CGPA', detail: 'B.Tech CSE (AI/ML) @ VIT Bhopal University', palette: violet },
   { label: 'Algorithmic Grit', title: '250+ Solved', detail: 'LeetCode, GFG & HackerRank algorithmic problem solving', palette: jade },
   { label: 'Vision AI System', title: 'AIMealTracker', detail: 'Claude 3.5 Sonnet colloquial Indian meal macro parsing', palette: crimson },
   { label: 'Ivy League Rigor', title: 'Harvard CS50 AI', detail: 'CS50 Introduction to Artificial Intelligence with Python', palette: ocean },
@@ -514,8 +514,8 @@ export const introSlides: IntroSlide[] = [
   {
     kicker: 'Education & Honors',
     title: 'B.Tech · AI & ML',
-    lines: ['VIT Bhopal University (Batch 2023–2027)', 'Academic Standing: CGPA 8.67 / 10.0'],
-    chips: ['CGPA 8.67', 'VIT Bhopal', 'Batch 2027'],
+    lines: ['VIT Bhopal University (Batch 2023–2027)', 'Academic Standing: CGPA 8.70 / 10.0'],
+    chips: ['CGPA 8.70', 'VIT Bhopal', 'Batch 2027'],
   },
   {
     kicker: 'Flagship Systems',
@@ -569,7 +569,7 @@ export const viewerProfiles: {
   {
     id: 'recruiter',
     name: 'Recruiter',
-    blurb: 'Resume, 8.67 CGPA, metrics & core stack first',
+    blurb: 'Resume, 8.70 CGPA, metrics & core stack first',
     color: '#4cc9ff',
     order: ['story', 'moments', 'skills', 'originals', 'about', 'journey', 'picks'],
   },
@@ -590,7 +590,7 @@ export const viewerProfiles: {
 ];
 
 export const sectionMeta: Record<SectionId, { nav: string; card: string; meta: string; palette: Palette }> = {
-  about: { nav: 'About', card: 'About Me', meta: 'The Pilot • VIT Bhopal (8.67 CGPA)', palette: violet },
+  about: { nav: 'About', card: 'About Me', meta: 'The Pilot • VIT Bhopal (8.70 CGPA)', palette: violet },
   journey: { nav: 'Journey', card: 'My Journey', meta: `${seasons.length} Seasons • ${seasons.reduce((n, s) => n + s.episodes.length, 0)} Episodes`, palette: amber },
   originals: { nav: 'Originals', card: 'My Projects', meta: `${projects.length} Flagship Originals • 2026`, palette: crimson },
   picks: { nav: 'Top Picks', card: 'Top Picks', meta: 'Top 10 Highlights & Achievements', palette: jade },
