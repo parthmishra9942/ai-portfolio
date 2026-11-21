@@ -1,199 +1,638 @@
 %PDF-1.4
-%“Œ‹ž ReportLab Generated PDF document (opensource)
+%âãÏÓ
 1 0 obj
 <<
-/F1 2 0 R /F2 3 0 R /F3 9 0 R /F4 15 0 R
+/Producer (pypdf)
 >>
 endobj
 2 0 obj
 <<
-/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+/Type /Pages
+/Count 1
+/Kids [ 4 0 R ]
 >>
 endobj
 3 0 obj
 <<
-/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+/Type /Catalog
+/Pages 2 0 R
 >>
 endobj
 4 0 obj
 <<
-/A <<
-/S /URI /Type /Action /URI (mailto:parthmishra9942@gmail.com)
->> /Border [ 0 0 0 ] /Rect [ 260.4987 723.64 362.4759 733 ] /Subtype /Link /Type /Annot
+/Annots [ 5 0 R 6 0 R 7 0 R 8 0 R 9 0 R 10 0 R 11 0 R 12 0 R 13 0 R 14 0 R 15 0 R 16 0 R 17 0 R 18 0 R ]
+/Contents 19 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 20 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
 >>
 endobj
 5 0 obj
 <<
 /A <<
-/S /URI /Type /Action /URI (https://linkedin.com/in/parth-mishra-4b7578242)
->> /Border [ 0 0 0 ] /Rect [ 369.5427 723.64 467.0661 733 ] /Subtype /Link /Type /Annot
+/S /URI
+/Type /Action
+/URI (https\072\057\057linkedin\056com\057in\057parth\055mishra\055cse)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 120.3747 755.7726 256.3791 767.1126 ]
+/Subtype /Link
+/Type /Annot
 >>
 endobj
 6 0 obj
 <<
 /A <<
-/S /URI /Type /Action /URI (https://github.com/parthmishra9942)
->> /Border [ 0 0 0 ] /Rect [ 474.1329 723.64 572.9745 733 ] /Subtype /Link /Type /Annot
+/S /URI
+/Type /Action
+/URI (https\072\057\057github\056com\057parthmishra9942)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 264.0903 755.7726 383.8407 767.1126 ]
+/Subtype /Link
+/Type /Annot
 >>
 endobj
 7 0 obj
 <<
 /A <<
-/S /URI /Type /Action /URI (https://parthh.runs-on.dev)
->> /Border [ 0 0 0 ] /Rect [ 224.6421 713.44 290.1075 722.8 ] /Subtype /Link /Type /Annot
+/S /URI
+/Type /Action
+/URI (https\072\057\057ai\055portfolio\055beige\055xi\056vercel\056app)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 391.5519 755.7726 426.2145 767.1126 ]
+/Subtype /Link
+/Type /Annot
 >>
 endobj
 8 0 obj
 <<
 /A <<
-/S /URI /Type /Action /URI (https://leetcode.com/u/parth213g)
->> /Border [ 0 0 0 ] /Rect [ 297.1743 713.44 387.3579 722.8 ] /Subtype /Link /Type /Annot
+/S /URI
+/Type /Action
+/URI (https\072\057\057leetcode\056com\057u\057parth213g)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 433.9257 755.7726 474.9009 767.1126 ]
+/Subtype /Link
+/Type /Annot
 >>
 endobj
 9 0 obj
 <<
-/BaseFont /Helvetica-BoldOblique /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057github\056com\057parthmishra9942\057vectordb\055python)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 378.9211 553.7726 408.3295 565.1126 ]
+/Subtype /Link
+/Type /Annot
 >>
 endobj
 10 0 obj
 <<
 /A <<
-/S /URI /Type /Action /URI (https://github.com/parthmishra9942/vectordb-python)
->> /Border [ 0 0 0 ] /Rect [ 420.2297 543.72 451.8218 553.2 ] /Subtype /Link /Type /Annot
+/S /URI
+/Type /Action
+/URI (https\072\057\057ai\055portfolio\055beige\055xi\056vercel\056app)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 334.2982 491.6726 351.6295 503.0126 ]
+/Subtype /Link
+/Type /Annot
 >>
 endobj
 11 0 obj
 <<
 /A <<
-/S /URI /Type /Action /URI (https://github.com/parthmishra9942/PWP_jobhunt)
->> /Border [ 0 0 0 ] /Rect [ 505.3443 485.72 536.9364 495.2 ] /Subtype /Link /Type /Annot
+/S /URI
+/Type /Action
+/URI (https\072\057\057github\056com\057parthmishra9942\057ai\055portfolio)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 359.3407 491.6726 388.7491 503.0126 ]
+/Subtype /Link
+/Type /Annot
 >>
 endobj
 12 0 obj
 <<
 /A <<
-/S /URI /Type /Action /URI (https://parthh.runs-on.dev)
->> /Border [ 0 0 0 ] /Rect [ 393.8911 437.12 491.7721 446.6 ] /Subtype /Link /Type /Annot
+/S /URI
+/Type /Action
+/URI (https\072\057\057github\056com\057parthmishra9942\057eve\055diagnostic\055booking)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 526.5584 429.5726 555.304 440.9126 ]
+/Subtype /Link
+/Type /Annot
 >>
 endobj
 13 0 obj
 <<
 /A <<
-/S /URI /Type /Action /URI (https://github.com/parthmishra9942/ai-portfolio)
->> /Border [ 0 0 0 ] /Rect [ 498.9295 437.12 530.5216 446.6 ] /Subtype /Link /Type /Annot
+/S /URI
+/Type /Action
+/URI (https\072\057\057github\056com\057parthmishra9942\057Ai\055Meal\055Tracker)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 398.407 379.8726 427.8154 391.2126 ]
+/Subtype /Link
+/Type /Annot
 >>
 endobj
 14 0 obj
 <<
 /A <<
-/S /URI /Type /Action /URI (https://github.com/parthmishra9942/Ai-Meal-Tracker)
->> /Border [ 0 0 0 ] /Rect [ 429.4648 397.92 461.0569 407.4 ] /Subtype /Link /Type /Annot
+/S /URI
+/Type /Action
+/URI (https\072\057\057github\056com\057parthmishra9942\057PWP\137jobhunt)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 338.4845 341.7226 367.8929 353.0626 ]
+/Subtype /Link
+/Type /Annot
 >>
 endobj
 15 0 obj
 <<
-/BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057certificates\056cs50\056io\0573e7e245a\0555d02\0554e80\055ac1f\055375fd52c3581\056pdf\077size\075letter)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 473.8836 123.5726 545.3256 134.9126 ]
+/Subtype /Link
+/Type /Annot
 >>
 endobj
 16 0 obj
 <<
 /A <<
-/S /URI /Type /Action /URI (https://catalog-education.oracle.com/pls/certview/sharebadge?id=139B1C4B805029402F7535640EC030111CB9054492D7F7A58B681DE8C377AC8C)
->> /Border [ 0 0 0 ] /Rect [ 339.2908 229.78 362.942 238.9 ] /Subtype /Link /Type /Annot
+/S /URI
+/Type /Action
+/URI (https\072\057\057catalog\055education\056oracle\056com\057pls\057certview\057sharebadge\077id\075139B1C4B805029402F7535640EC030111CB9054492D7F7A58B681DE8C377AC8C)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 415.9929 111.1726 537.8601 122.5126 ]
+/Subtype /Link
+/Type /Annot
 >>
 endobj
 17 0 obj
 <<
 /A <<
-/S /URI /Type /Action /URI (https://certificates.cs50.io/3e7e245a-5d02-4e80-ac1f-375fd52c3581.pdf?size=letter)
->> /Border [ 0 0 0 ] /Rect [ 350.7972 220.28 374.4484 229.4 ] /Subtype /Link /Type /Annot
+/S /URI
+/Type /Action
+/URI (https\072\057\057www\056coursera\056org\057account\057accomplishments\057verify\057G1Q6ZYPKPWP4)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 414.4053 98.7726 520.491 110.1126 ]
+/Subtype /Link
+/Type /Annot
 >>
 endobj
 18 0 obj
 <<
 /A <<
-/S /URI /Type /Action /URI (https://www.coursera.org/account/accomplishments/verify/G1Q6ZYPKPWP4)
->> /Border [ 0 0 0 ] /Rect [ 329.578 210.78 353.2292 219.9 ] /Subtype /Link /Type /Annot
+/S /URI
+/Type /Action
+/URI (https\072\057\057github\056com\057parthmishra9942\057DsaFromScratch)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 95.1378 30.2726 124.5462 41.6126 ]
+/Subtype /Link
+/Type /Annot
 >>
 endobj
 19 0 obj
 <<
-/A <<
-/S /URI /Type /Action /URI (https://leetcode.com/u/parth213g)
->> /Border [ 0 0 0 ] /Rect [ 284.8976 201.28 317.8512 210.4 ] /Subtype /Link /Type /Annot
+/Length 13251
 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 40.01575 791.2126 cm
+q
+.066667 .066667 .066667 rg
+BT 1 0 0 1 0 3 Tm /F2 19 Tf 22 TL 200.0805 0 Td (Parth Mishra) Tj T* -200.0805 0 Td ET
+Q
+Q
+q
+1 0 0 1 40.01575 778.7626 cm
+q
+BT 1 0 0 1 0 2 Tm 133.058 0 Td 12.45 TL /F2 10.45 Tf .121569 .227451 .372549 rg (AI Engineer | Python Backend & LLM Applications) Tj T* -133.058 0 Td ET
+Q
+Q
+q
+1 0 0 1 40.01575 767.1126 cm
+q
+BT 1 0 0 1 0 2.2 Tm 59.56895 0 Td 11.65 TL /F1 9.45 Tf .066667 .066667 .066667 rg (Bhopal, India \(Open to Pan-India & Remote\) | +91-7985982208 | parthmishra9942@gmail.com) Tj T* -59.56895 0 Td ET
+Q
+Q
+q
+1 0 0 1 40.01575 755.4626 cm
+q
+BT 1 0 0 1 0 2.2 Tm 80.35895 0 Td 11.65 TL /F1 9.45 Tf .121569 .227451 .372549 rg (linkedin.com/in/parth-mishra-cse) Tj .066667 .066667 .066667 rg ( | ) Tj .121569 .227451 .372549 rg (github.com/parthmishra9942) Tj .066667 .066667 .066667 rg ( | ) Tj .121569 .227451 .372549 rg (Portfolio) Tj .066667 .066667 .066667 rg ( | ) Tj .121569 .227451 .372549 rg (LeetCode) Tj T* -80.35895 0 Td ET
+Q
+Q
+q
+1 0 0 1 40.01575 737.9626 cm
+q
+.121569 .227451 .372549 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (SUMMARY) Tj T* ET
+Q
+Q
+q
+1 0 0 1 40.01575 736.3626 cm
+q
+.6 w
+1 J
+.121569 .227451 .372549 RG
+n 0 0 m 515.2441 0 l S
+Q
+Q
+q
+1 0 0 1 40.01575 700.2126 cm
+q
+.066667 .066667 .066667 rg
+BT 1 0 0 1 0 25.2 Tm /F1 9.45 Tf 11.55 TL (Final-year B.Tech CSE \(AI/ML\) student who builds LLM apps and Python backends. Wrote a vector database from scratch) Tj T* (\(HNSW, 38x faster than brute force\) with a local RAG pipeline. Also shipped a streaming Groq recruiter assistant with rate) Tj T* (limits, and a Claude meal tracker that returns structured JSON. Looking for AI Engineer and SDE Intern roles.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 40.01575 682.7126 cm
+q
+.121569 .227451 .372549 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (TECHNICAL SKILLS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 40.01575 681.1126 cm
+q
+.6 w
+1 J
+.121569 .227451 .372549 RG
+n 0 0 m 515.2441 0 l S
+Q
+Q
+q
+1 0 0 1 40.01575 668.0626 cm
+q
+BT 1 0 0 1 0 2.1 Tm 11.55 TL /F2 9.45 Tf .066667 .066667 .066667 rg (Languages:) Tj /F1 9.45 Tf ( Python, C++, JavaScript \(ES6+\), TypeScript, SQL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 40.01575 644.9626 cm
+q
+BT 1 0 0 1 0 13.65 Tm 11.55 TL /F2 9.45 Tf .066667 .066667 .066667 rg (LLM & AI:) Tj /F1 9.45 Tf ( Claude API \(Anthropic\), Groq API, Ollama, Prompt Engineering, Structured JSON Outputs, RAG Pipelines,) Tj T* (Embeddings \(nomic-embed-text\), Vector Search \(HNSW, KD-Tree\), Streaming Inference, NumPy, Scikit-Learn) Tj T* ET
+Q
+Q
+q
+1 0 0 1 40.01575 621.8626 cm
+q
+BT 1 0 0 1 0 13.65 Tm 11.55 TL /F2 9.45 Tf .066667 .066667 .066667 rg (Backend & APIs:) Tj /F1 9.45 Tf ( FastAPI, Flask, Pydantic, Node.js, Express.js, REST APIs, Asynchronous Programming, Rate Limiting) Tj T* (\(slowapi\), JWT Authentication) Tj T* ET
+Q
+Q
+q
+1 0 0 1 40.01575 610.3126 cm
+q
+BT 1 0 0 1 0 2.1 Tm 11.55 TL /F2 9.45 Tf .066667 .066667 .066667 rg (Data & DevOps:) Tj /F1 9.45 Tf ( PostgreSQL, MySQL, Docker, Git, GitHub, Linux/Unix Shell, Render, Vercel, Pytest) Tj T* ET
+Q
+Q
+q
+1 0 0 1 40.01575 598.7626 cm
+q
+BT 1 0 0 1 0 2.1 Tm 11.55 TL /F2 9.45 Tf .066667 .066667 .066667 rg (Frontend:) Tj /F1 9.45 Tf ( React, Vite, React Native, HTML5, CSS3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 40.01575 587.2126 cm
+q
+BT 1 0 0 1 0 2.1 Tm 11.55 TL /F2 9.45 Tf .066667 .066667 .066667 rg (In Progress:) Tj /F1 9.45 Tf ( LangGraph, Model Context Protocol \(MCP\), FAISS/ChromaDB benchmarking, LLM-as-a-Judge eval suite) Tj T* ET
+Q
+Q
+q
+1 0 0 1 40.01575 569.7126 cm
+q
+.121569 .227451 .372549 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (PROJECTS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 40.01575 568.1126 cm
+q
+.6 w
+1 J
+.121569 .227451 .372549 RG
+n 0 0 m 515.2441 0 l S
+Q
+Q
+q
+1 0 0 1 40.01575 553.5626 cm
+q
+BT 1 0 0 1 0 2.1 Tm 11.55 TL /F2 9.45 Tf .066667 .066667 .066667 rg (VectorDB: Vector Database & RAG Pipeline) Tj /F1 9.45 Tf ( ) Tj .266667 .266667 .266667 rg (| Python, Flask, NumPy, Ollama | ) Tj .121569 .227451 .372549 rg (GitHub) Tj T* ET
+Q
+Q
+q
+1 0 0 1 40.01575 529.9626 cm
+q
+BT 1 0 0 1 2 13.65 Tm /F1 10 Tf 12 TL .066667 .066667 .066667 rg (-) Tj ET
+.066667 .066667 .066667 rg
+BT 1 0 0 1 11 13.65 Tm /F1 9.45 Tf 11.55 TL .33 0 Td (Cut nearest-neighbor search to sub-15ms over 50,000+ 768-dim embeddings, 38x faster than brute force. Built HNSW) Tj T* -0.33 0 Td (and KD-Tree indexes from scratch and benchmarked precision and latency against a brute-force baseline.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 40.01575 506.0126 cm
+q
+BT 1 0 0 1 2 13.65 Tm /F1 10 Tf 12 TL .066667 .066667 .066667 rg (-) Tj ET
+.066667 .066667 .066667 rg
+BT 1 0 0 1 11 13.65 Tm /F1 9.45 Tf 11.55 TL .33 0 Td (Built the full local RAG loop: nomic-embed-text embeddings, HNSW retrieval, answers from an Ollama LLM, all behind) Tj T* -0.33 0 Td (Flask REST endpoints \(/insert, /search, /benchmark\). A PCA dashboard plots the semantic clusters in 2D.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 40.01575 491.4626 cm
+q
+BT 1 0 0 1 0 2.1 Tm 11.55 TL /F2 9.45 Tf .066667 .066667 .066667 rg (AI Portfolio & Recruiter Assistant) Tj /F1 9.45 Tf ( ) Tj .266667 .266667 .266667 rg (| React, Vite, FastAPI, Groq API | ) Tj .121569 .227451 .372549 rg (Live) Tj .266667 .266667 .266667 rg ( | ) Tj .121569 .227451 .372549 rg (GitHub) Tj T* ET
+Q
+Q
+q
+1 0 0 1 40.01575 467.8626 cm
+q
+BT 1 0 0 1 2 13.65 Tm /F1 10 Tf 12 TL .066667 .066667 .066667 rg (-) Tj ET
+.066667 .066667 .066667 rg
+BT 1 0 0 1 11 13.65 Tm /F1 9.45 Tf 11.55 TL .33 0 Td (Streamed answers to recruiter questions in real time through FastAPI and the Groq API \(openai/gpt-oss-20b\). The) Tj T* -0.33 0 Td (prompt is grounded on resume and project data, so the bot sticks to facts.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 40.01575 443.9126 cm
+q
+BT 1 0 0 1 2 13.65 Tm /F1 10 Tf 12 TL .066667 .066667 .066667 rg (-) Tj ET
+.066667 .066667 .066667 rg
+BT 1 0 0 1 11 13.65 Tm /F1 9.45 Tf 11.55 TL .33 0 Td (Capped abuse with slowapi rate limits: 20 req/min on chat, 5 req/min on the JD matcher. The JD evaluator returns a) Tj T* -0.33 0 Td (suitability score, missing skills, and interview tips. Frontend on Vercel, backend on Render.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 40.01575 429.3626 cm
+q
+BT 1 0 0 1 0 2.1 Tm -0.044188 Tw 11.55 TL /F2 9.45 Tf .066667 .066667 .066667 rg (Eve Diagnostic Booking Service) Tj /F1 9.45 Tf ( ) Tj .266667 .266667 .266667 rg (| FastAPI \(Python 3.12\), PostgreSQL 16, Pydantic v2, Docker Compose, Pytest | ) Tj .121569 .227451 .372549 rg (GitHub) Tj T* 0 Tw ET
+Q
+Q
+q
+1 0 0 1 40.01575 394.2126 cm
+q
+BT 1 0 0 1 2 25.2 Tm /F1 10 Tf 12 TL .066667 .066667 .066667 rg (-) Tj ET
+.066667 .066667 .066667 rg
+BT 1 0 0 1 11 25.2 Tm /F1 9.45 Tf 11.55 TL .33 0 Td (Stopped double-booking and duplicate charges under concurrent requests and webhook retries, using pessimistic row) Tj T* -0.33 0 Td (locking \(SELECT ... FOR UPDATE\) and an idempotency-key ledger with a transactional outbox. Async Pytest suites) Tj T* (reproduce the conflicts; Docker Compose runs the API and database.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 40.01575 379.6626 cm
+q
+BT 1 0 0 1 0 2.1 Tm 11.55 TL /F2 9.45 Tf .066667 .066667 .066667 rg (AI Meal Tracker) Tj /F1 9.45 Tf ( ) Tj .266667 .266667 .266667 rg (| React, Vite, Claude API \(claude-sonnet-4-5\), Prompt Engineering | ) Tj .121569 .227451 .372549 rg (GitHub) Tj T* ET
+Q
+Q
+q
+1 0 0 1 40.01575 356.0626 cm
+q
+BT 1 0 0 1 2 13.65 Tm /F1 10 Tf 12 TL .066667 .066667 .066667 rg (-) Tj ET
+.066667 .066667 .066667 rg
+BT 1 0 0 1 11 13.65 Tm /F1 9.45 Tf 11.55 TL .33 0 Td (Turned free-text Indian vegetarian meal descriptions into structured JSON macro breakdowns. Prompts encode) Tj T* -0.33 0 Td (home-cooking portion sizes, which avoids generic USDA-style estimates. No backend: the browser calls the API directly.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 40.01575 341.5126 cm
+q
+BT 1 0 0 1 0 2.1 Tm 11.55 TL /F2 9.45 Tf .066667 .066667 .066667 rg (Autonomous Job-Hunt Pipeline) Tj /F1 9.45 Tf ( ) Tj .266667 .266667 .266667 rg (| Python 3.12, IMAP/SMTP, XeTeX | ) Tj .121569 .227451 .372549 rg (GitHub) Tj T* ET
+Q
+Q
+q
+1 0 0 1 40.01575 317.9126 cm
+q
+BT 1 0 0 1 2 13.65 Tm /F1 10 Tf 12 TL .066667 .066667 .066667 rg (-) Tj ET
+.066667 .066667 .066667 rg
+BT 1 0 0 1 11 13.65 Tm /F1 9.45 Tf 11.55 TL .33 0 Td (Dropped 95%+ of irrelevant postings before any LLM call, using regex filters on title, batch, and location. Survivors get) Tj T* -0.33 0 Td (LLM screening, a tailored XeTeX resume, and an emailed application, all logged in a CSV ledger.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 40.01575 300.4126 cm
+q
+.121569 .227451 .372549 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (EXPERIENCE) Tj T* ET
+Q
+Q
+q
+1 0 0 1 40.01575 298.8126 cm
+q
+.6 w
+1 J
+.121569 .227451 .372549 RG
+n 0 0 m 515.2441 0 l S
+Q
+Q
+q
+1 0 0 1 40.01575 284.2626 cm
+q
+BT 1 0 0 1 0 2.1 Tm 11.55 TL /F2 9.45 Tf .066667 .066667 .066667 rg (Software Engineering Intern \(Front-End & Systems\)) Tj /F1 9.45 Tf ( ) Tj .266667 .266667 .266667 rg (| Craftedge Academy | Remote / Bhopal | Oct 2025 - Apr 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 40.01575 260.6626 cm
+q
+BT 1 0 0 1 2 13.65 Tm /F1 10 Tf 12 TL .066667 .066667 .066667 rg (-) Tj ET
+.066667 .066667 .066667 rg
+BT 1 0 0 1 11 13.65 Tm /F1 9.45 Tf 11.55 TL .33 0 Td (Cut initial page load latency 28% on client-facing platforms with 1,000+ active learners. The fixes: React code-splitting,) Tj T* -0.33 0 Td (lazy-loading, and asset minification. Mobile layout shifts are gone too.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 40.01575 236.7126 cm
+q
+BT 1 0 0 1 2 13.65 Tm /F1 10 Tf 12 TL .066667 .066667 .066667 rg (-) Tj ET
+.066667 .066667 .066667 rg
+BT 1 0 0 1 11 13.65 Tm /F1 9.45 Tf 11.55 TL .33 0 Td -0.096361 Tw (Reduced redundant network requests 35%, with zero regressions across releases, by adding centralized client-side state) Tj T* 0 Tw -0.33 0 Td (and debounced REST queries.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 40.01575 224.3126 cm
+q
+BT 1 0 0 1 2 2.1 Tm /F1 10 Tf 12 TL .066667 .066667 .066667 rg (-) Tj ET
+.066667 .066667 .066667 rg
+BT 1 0 0 1 11 2.1 Tm /F1 9.45 Tf 11.55 TL .33 0 Td (Shipped modular, responsive React components that passed 100% of QA verification.) Tj T* -0.33 0 Td ET
+Q
+Q
+q
+1 0 0 1 40.01575 206.8126 cm
+q
+.121569 .227451 .372549 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (EDUCATION) Tj T* ET
+Q
+Q
+q
+1 0 0 1 40.01575 205.2126 cm
+q
+.6 w
+1 J
+.121569 .227451 .372549 RG
+n 0 0 m 515.2441 0 l S
+Q
+Q
+q
+1 0 0 1 40.01575 179.1126 cm
+q
+BT 1 0 0 1 0 13.65 Tm 11.55 TL /F2 9.45 Tf .066667 .066667 .066667 rg (Vellore Institute of Technology \(VIT Bhopal\)) Tj /F1 9.45 Tf ( ) Tj .266667 .266667 .266667 rg (| B.Tech, Computer Science and Engineering \(AI/ML\) | CGPA: 8.70 | Aug) Tj T* (2023 - May 2027) Tj T* ET
+Q
+Q
+q
+1 0 0 1 40.01575 155.5126 cm
+q
+BT 1 0 0 1 0 13.65 Tm 11.55 TL /F1 9.45 Tf .066667 .066667 .066667 rg (Coursework: Data Structures & Algorithms, Machine Learning, Deep Learning, NLP, DBMS, Operating Systems, Computer) Tj T* (Networks) Tj T* ET
+Q
+Q
+q
+1 0 0 1 40.01575 138.0126 cm
+q
+.121569 .227451 .372549 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (CERTIFICATIONS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 40.01575 136.4126 cm
+q
+.6 w
+1 J
+.121569 .227451 .372549 RG
+n 0 0 m 515.2441 0 l S
+Q
+Q
+q
+1 0 0 1 40.01575 123.3626 cm
+q
+BT 1 0 0 1 2 2.1 Tm /F1 10 Tf 12 TL .066667 .066667 .066667 rg (-) Tj ET
+BT 1 0 0 1 11 2.1 Tm .33 0 Td 11.55 TL /F2 9.45 Tf .066667 .066667 .066667 rg (CS50's Introduction to Artificial Intelligence with Python) Tj /F1 9.45 Tf (, Harvard University \(online\) | Oct 2026 | ) Tj .121569 .227451 .372549 rg (Verify: 3e7e245a) Tj T* -0.33 0 Td ET
+Q
+Q
+q
+1 0 0 1 40.01575 110.9626 cm
+q
+BT 1 0 0 1 2 2.1 Tm /F1 10 Tf 12 TL .066667 .066667 .066667 rg (-) Tj ET
+BT 1 0 0 1 11 2.1 Tm .33 0 Td 11.55 TL /F2 9.45 Tf .066667 .066667 .066667 rg (Oracle Certified Foundations Associate, Agentic AI) Tj /F1 9.45 Tf (, Oracle University | Sept 2026 | ) Tj .121569 .227451 .372549 rg (Verify: 103546830AAI26OFA) Tj T* -0.33 0 Td ET
+Q
+Q
+q
+1 0 0 1 40.01575 98.5626 cm
+q
+BT 1 0 0 1 2 2.1 Tm /F1 10 Tf 12 TL .066667 .066667 .066667 rg (-) Tj ET
+BT 1 0 0 1 11 2.1 Tm .33 0 Td 11.55 TL /F2 9.45 Tf .066667 .066667 .066667 rg (Applied Machine Learning in Python) Tj /F1 9.45 Tf (, University of Michigan \(Coursera\) | Jan 2026 | ) Tj .121569 .227451 .372549 rg (Verify: G1Q6ZYPKPWP4) Tj T* -0.33 0 Td ET
+Q
+Q
+q
+1 0 0 1 40.01575 81.0626 cm
+q
+.121569 .227451 .372549 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (ACHIEVEMENTS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 40.01575 79.4626 cm
+q
+.6 w
+1 J
+.121569 .227451 .372549 RG
+n 0 0 m 515.2441 0 l S
+Q
+Q
+q
+1 0 0 1 40.01575 66.4126 cm
+q
+BT 1 0 0 1 2 2.1 Tm /F1 10 Tf 12 TL .066667 .066667 .066667 rg (-) Tj ET
+.066667 .066667 .066667 rg
+BT 1 0 0 1 11 2.1 Tm /F1 9.45 Tf 11.55 TL .33 0 Td (Ranked top 3 in the district among 1,200+ students in a Mathematics Olympiad.) Tj T* -0.33 0 Td ET
+Q
+Q
+q
+1 0 0 1 40.01575 54.0126 cm
+q
+BT 1 0 0 1 2 2.1 Tm /F1 10 Tf 12 TL .066667 .066667 .066667 rg (-) Tj ET
+.066667 .066667 .066667 rg
+BT 1 0 0 1 11 2.1 Tm /F1 9.45 Tf 11.55 TL .33 0 Td (Ranked top 5 among 7,000+ students in a Mathematics Olympiad.) Tj T* -0.33 0 Td ET
+Q
+Q
+q
+1 0 0 1 40.01575 30.0626 cm
+q
+BT 1 0 0 1 2 13.65 Tm /F1 10 Tf 12 TL .066667 .066667 .066667 rg (-) Tj ET
+BT 1 0 0 1 11 13.65 Tm .33 0 Td 11.55 TL /F1 9.45 Tf .066667 .066667 .066667 rg (Solved 250+ algorithmic problems on LeetCode, GeeksforGeeks, and HackerRank \(DP, graphs, trees, two pointers\).) Tj T* -0.33 0 Td (Solutions: ) Tj .121569 .227451 .372549 rg (GitHub) Tj .066667 .066667 .066667 rg (.) Tj T* ET
+Q
+Q
+ 
+
+endstream
 endobj
 20 0 obj
 <<
-/Annots [ 4 0 R 5 0 R 6 0 R 7 0 R 8 0 R 10 0 R 11 0 R 12 0 R 13 0 R 14 0 R 
-  16 0 R 17 0 R 18 0 R 19 0 R ] /Contents 24 0 R /MediaBox [ 0 0 612 792 ] /Parent 23 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 
-  /Trans <<
-
->> /Type /Page
+/F1 21 0 R
+/F2 22 0 R
 >>
 endobj
 21 0 obj
 <<
-/PageMode /UseNone /Pages 23 0 R /Type /Catalog
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 22 0 obj
 <<
-/Author (\(anonymous\)) /CreationDate (D:20261121000811+05'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20261121000811+05'00') /Producer (ReportLab PDF Library - \(opensource\)) 
-  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
 >>
-endobj
-23 0 obj
-<<
-/Count 1 /Kids [ 20 0 R ] /Type /Pages
->>
-endobj
-24 0 obj
-<<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 4967
->>
-stream
-GauHN>C5ALQ@84/;(q0R:4oYF-$^@Hj#2>$-ALrYo8Vq,&-XHtP+mljoQPc^XBd+YCt#bT[O:k`N2S5V^9,*BXtlB)Igu5RE5U?*)*9u?Qsm;ROr:]?Ze:-DAoIZrA(2_TPBjTl_0DjANpiGqdgX8*CkHG6TGrI*o$n[1A@-,^[11\ERGl81"'X7)IEf5&r&e2fP=b4hG/;29l,@f6B/]X>c2PPj%u+I.^Z"'?4)ns^O.TUak,9:ah1f>uRUpi+>1>5[&t>T>"n^u@BtEa.[`()Dn6AMaH+n/"-A5hU]chaGVV@gZRt;*4<KmcOZQ$gRfOS3hdtGEtiN5Wd(cE:l=YC<;;(9Afb!di2_]9^2bH_V7AXJq@./r]WY<TZkQtcDc*V^Z^kF)n80[%m%]J+#j`,(<NQK;h@D=3CiYqt3YNJHP1gXHYT%!LYN>Lrr&FrlZ"!pn5k0jD!G0[oPL6\h?"JJr+2Nb3OgHS`fbTFT!Mp-q3LRZn_F_^8('W6M2TVD=XW4O'4)1J&h\5th3p1u!Ou*,2kUlSRXALCKG9`7`DW<@/>ZVJO,5Y'Tf-?&ME\MOU6'2;\R,f*csRn4bm9H6s)GbW@SOQg7@FXE,Ec[e\g]%?FsM9K-_KOUXMG"`]d^MFEcVR\s#'.UUh.Dg\O.XJ0`@c/flcan*/(1i@163gQt?r4?-:CO)0Zh)*LpipOe8,t&WJ$R(5'PW5OKX`fiZGjMma&KYg0MFB\TX?%,FG)r7Z^<sU/`F]r0Mr5/=^1fTn$;-aYJ`GdS>l;^5gq[W*r2[%?85qGp,#5#-`oGqK^De%$$0=4N''^&m&k^N66%b".>cnJfUXlS6&n5LNAQYP#JkMSiE6\7.!@"R'4<9Io6m5'&/U/]]0A5OIN2[B,M#N0$mhb,%SrR4rV9DJ.eF,H/b'=g3ee`TL/L.N.;8RW0Od&_aHGb&R]<r<S"_%o%#tB+tLuj$-mJsn6cEIaAkCm<e4Pd5QPSYXhngFg>//AE/2nD&L1&U1pic=lW>NItOj6)-k&gaRgZhuImaasCN/(]$n4Kfmb1<i0`Mj!2dU'f'LCL$TtYUmp"65K#lj_9Ek((@srBa@.4`A-7h[XieF"[r-KM*)DBW5P6.;2dJQ4nW>+Xk)<KNFc/VX=Dm`p<f?<:[9%I<RrT[9\_p2h*iCDPAR>0N4PO$`sS*>3c^uaR1$aF$Y5Q\P#=PIg,HHL3r1or6Kn'H2\KgG;mn4)peE@s2WOU*PVfeV"`:G;Kl>]K3'A4b4GABpj0!'2LJkYJ=H/6U).+Z'XIrkh8)e;Bk[.R)qn3T2rc:%;9ohn:RJ9%?)-ZO]j(sKrqnY&Iaf9rHMdN%Y#&E%?P,HJOKR8tC5Bg60h7F/dD)3mUo-c+Nlm':*l>MV%9\jnLCAQ\@Au8#-ap#M$fQ`;bqWVHI*]^.sl-qaD4<X3fnAa?ORD[I&&;_OM]b=(;1O/L77I8A',*Bl/:hW4jre0@+=P[V)#a3L@3i7MhGmt$"p<U)5//P%B>)[`\pcoC6fS;TfZVuX$LI'Z6W3V6d_N$NNVIII)<X,&(=AXh6A^`E<jGOi@W[\V;`A,%eJc=q\h6GV$llJu<%7)"X*qSA,@W*&TZo\pN*DC+h.OOgR^e7;:J)CjQ*7S36^\_^X<d>2!gL<:AMG^a;,dQ3q9]PadF%Ob$J"NuP<N`/),tMHhHJ]_DlJbjLUGTWK-p:gk9a2r"AWLTR#DIT^co_tc='5PE%[1H6A^s76TZT',?K@[R':OITKn*N!jXL2@W9,*K-`OhMIS-=fX?V<f.5KjTjJka9+LfrV(bO/XT(^L_mqI6_KG'?XP%VEc55!AEWI,%)N-Vrt,Wi='/cnRL]m,h)@%g+P2^]-A&\/#9J=r](@\0W6S+Cn>8*-&l[=j;LE"k:aUu-esnL]gaaOH-VE1=5Vs/9tn5^CG7k:NXI:hk"j]3Xqs;UbH72u@\[3+J0<X,ho4ltC9WChrdn,LrUOqjM4'GT%F!82LCm2\!NNn?cM;SB#OTCJP>Pk<')icebuI'*[VSl&HL4H\fQH;Q3b#@S^`^`W">2S^kBP-?:[p>umH:FpH@sk'N,gVED2^p`C63s*I_QVVMsOH^aI2Te0/:f2VuET\:nG*1UZ\=.?(Y`H@(MaY>%NX&SR=M`,PO%A4F,0-]IP>*&IB-,5@=*)qtn2a!*,5N5,&pqUbhEad'5Rq0V.&Z^mPC<7%\"dt+b%B;+B(';,(#_ZZ3S.I`m"35[%h+ci:CWK6F+c<Rp#a"=3Pa9e4`#Z2rF.#"d2mDHfEqtonRWf2GnA3")/ILjOU[%n-ch4o.#WaQ!R]qN[1]&6GW?jS6C`d16QTBNj$E>fR8:H[-Z)FrUbHM[R0JYH[s'sU&ZD9"o&m!)`3N@$[E"D"0^BrpBd._l$0dV)o&lZ85]0n&HnZuRB8bZYO1p"bM=h(UIQ,nl<.OcO0n0J8d5:t-EN_,M$S3Y@hV$tL:aU$-I8c^K%.p94777G2Ukc:Kjg*<^?er6Al#82RS43p5ggTr`[VI+-"FEC^p/D#>Jj?-48O"&]a91kCiP?%i+bK<WO?M6+EZ\p;qbj$dL#m,ViOJ1+]1&.9WI!_J18kN4s!-gQ+Q]Qu7Y_uu+SV@Ea-DK4sqc\gPY^+$..^\NYq7^H=`(IqSJgptTMM_LR6+/t`hL]C:A8b>-&_r6`IT_r/,[X.)AI9pC(!F/i@p_ZrG)LKHZFg7o/eKA/872hh25;UOo@#c:JK)WpV5/JYiI@ZpJiXa!/c_/Q+i*W7K"/0I*pg?0>3J$&b:F#(=r/$6OCl2ZF;N(*el'I:oXs->(-o:l64#@QIM["4(46-t<]ok8MX=YVeIkErL?%-DQ)u:Ol"WYn%0LRnZRi9F"R>B=l!s*08,eO;gk/l=gN"8+*Tp,!U%n^k=j*5'5k@+efSfYq3d"g7c>HV>CQ<,=08^:=Gpd<40%2dPAM(1iaD2CM<CGJ1:LSeh3KU8,&&H,j^dJkV&dR.]O,@:E#1l;uhZeZE2Y@H)g(.62E(n?>KGrmYkf5a,1,up_jb:>+GHVmN[g(e[J\hRV6QO'JeM7CKD$,dG9I)_]?"IR`I&(QCF/k;p>E-6ICmLuKJ0F=a%?L\"3->TN#KRh]Y6q&#D?q:`QL5j7jW>f[qf"mSdH0s,Zo0:?@d4WJi_YEQr]Go&^`,7<dqQRH4C]<3A#L,U/3-2eT"j]E:Q83TPhsoO7@<3H`@YtY95MR'I,j`4-@$AFcoo>Y*^-t6moegt1sU8]ItnDDJ@a):?5aX"!)tl"\SO=>79gLYI>A&L`UuAJfPcMpb>9_W:bV/mBnGIBcUr+]>r-RYT[W-%^Z1hse9X`n-^5dR:e8\$J$cCIUa1\F^S:l?Gh*L-;n!HJb0t#+MLc2',%ZWuG$s(37Bd>WAM!AFBb,Z_?<tFO;1Q_h&PgXQ*k.("*n)Na.SDTjdRh5$Y%tqj84R1DEY%h[?QuBAW7D"NLuK-a:)JO!&O)>L85`BZ?jK]jo]j4M6("fSD&$*E#or/o+f1;T7J)l![IZ4,Ui*#H:n[np3M9@f8h4WhiuObhB0@eGo;&foITB-HY'7)fA@_+92hNgI7@HMpIn^.!_nfo6E7EP6G<18("]D5^ZFi\E]cZ["E6ocH3LmPE%edNWFP9KD90_T4^bK;l(\3:4C_$UX*RM,kp>@e-(nBs=^-_BHFeC*gkd"N\dl7$"C/"7!UPf6N?H!oG"*.7ni$W"-BrE)rdn(mK<p$0jK:9@X&]OqTh'ESCcDn:=`OmI&?%@4`GENlF?:@Td@T:j5$.ZUqL9CQpId;Q0'uaZ85l(+5=r<PTP$]1\SodK*`M-8nUVKu^5t9cMVgQn#D<>&7qEI.1QOkj*e5T4SMZEtpO9aHFeKQaJ]'[p,D&351&1%F<+Dd2tkZ9*eFX14[$sWh:k1c-32!\gX4qC&'lYq/rH!U*J1#OUM+E>IjPZ5W-5:\d*/kAd(F$NO^%]Pu/U15+0M_MSV)NlJ%pro^u!_(Vq=%(..@&o+/OA!_B[C?ch:f4M8SH_[6\k^`/B<',(%c)]AFM4fl?3Y=BJ$5aH&\L:(eF1Y:=-pt%`H8bF2_Rl'd>:MCJ9&;:*liB81/*f-9"KtC/f@s785b\j>@?mek/GTk:QJg-p=@hSJ2;<6<)N0?%HU:ei:K3pmk/g3j.rTdfE$phFA5!h_S(eLq\VS7.9OSshW%b7b5K`Q5Uii+6BG"CEqB@2_oC+J"WJ'7aT+O=,2<!@aY=6<dN#%rAIZcWjk0=fBnou*nrO_MQo:9Z)I9c6O-_?7Nh.YeNcVG,?omuh?Zn,?rNMp9)j!O9j&+WVr0Gr%fn8VDn9h/SRh"t7rJTXmo3a\j4FXkPR_eSjQV]3kI8oMh(DR&,Pi'2\k5>"RjHD)`k>X:i9qu#lUgZZ)VRieb^3W1K$.VY?&o-_K-m1Tf.Pf+'g]sNn['odh&6j%EdHC;NIZmhjC*)/8W:-9`iL)se+=0'`-R3;b_2m?m5[Xhgg"=CN8[W8RYAC0:eC";s+;25s>(t\/-g_Z^$[>LN8j9#]f8#<-_=Ka[0-45r-AJ^6X>)-AL4AGE#FPD0F=AL'1r'.8?&g8PD5BHIVT]#Hh.oC#2!Fl2ojb!lNE:e]A&P4nnnjTW9L6d9*+A7B(#N^7nT;YJ&`6s?6HF;Y;;%5(D3'oiST@)BiF+2,QAoIZ^$boM-a\iJGb2HBnG.Xu;U2Z2[;"OGI)dr,#>]41Jerh`NsUmQWX=j_<]T&6-h>&9NN'SjpN-Ra6%_+FX\*kaA+8^qFj9J_q_ctg^2(Inqf)P.__,I)l^B31E2^*[_J's9dSQ!nNj!)2OlcppH#/J$qt=jaA<P*!6WBjOWu]):?Mi<8Wdl8."^jMYFRb4kKdC>F`[hHLFi=M<7Q5/%L=>N+FqnpS=iBP1hrpG,qmF[V#l1NkmEk4!jR(illD_(/J*LPBYW)Red1@oj~>endstream
 endobj
 xref
-0 25
+0 23
 0000000000 65535 f 
-0000000061 00000 n 
-0000000123 00000 n 
-0000000230 00000 n 
-0000000342 00000 n 
-0000000519 00000 n 
-0000000710 00000 n 
-0000000889 00000 n 
-0000001062 00000 n 
-0000001241 00000 n 
-0000001360 00000 n 
-0000001558 00000 n 
-0000001752 00000 n 
-0000001926 00000 n 
-0000002121 00000 n 
-0000002319 00000 n 
-0000002435 00000 n 
-0000002710 00000 n 
-0000002939 00000 n 
-0000003154 00000 n 
-0000003334 00000 n 
-0000003638 00000 n 
-0000003708 00000 n 
-0000003989 00000 n 
-0000004050 00000 n 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000113 00000 n 
+0000000162 00000 n 
+0000000468 00000 n 
+0000000684 00000 n 
+0000000885 00000 n 
+0000001101 00000 n 
+0000001303 00000 n 
+0000001526 00000 n 
+0000001743 00000 n 
+0000001964 00000 n 
+0000002197 00000 n 
+0000002423 00000 n 
+0000002643 00000 n 
+0000002916 00000 n 
+0000003230 00000 n 
+0000003476 00000 n 
+0000003693 00000 n 
+0000016998 00000 n 
+0000017042 00000 n 
+0000017150 00000 n 
 trailer
 <<
-/ID 
-[<72f34c72014c182ff0b97c86d27329d1><72f34c72014c182ff0b97c86d27329d1>]
-% ReportLab generated PDF document -- digest (opensource)
-
-/Info 22 0 R
-/Root 21 0 R
-/Size 25
+/Size 23
+/Root 3 0 R
+/Info 1 0 R
 >>
 startxref
-9109
+17263
 %%EOF
